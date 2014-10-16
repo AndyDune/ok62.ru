@@ -1,0 +1,32 @@
+#request table
+{
+border-collapse:collapse;
+width: 100%;
+}
+#request table tr td
+{
+padding:5px;
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+#request table.table-verska tr td
+{
+border-top: 0px solid #999999;
+border-bottom: 0px solid #999999;
+}
+
+#request table tr td.small-td
+{
+width: 10px;
+}
+
+#request dl.no_format, #request dl.no_format dt, #request dl.no_format dd
+{
+margin: 0;
+padding: 0;
+}
+
+#request .active
+{
+color:#FF0000;
+}

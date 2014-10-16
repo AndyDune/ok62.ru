@@ -1,0 +1,17 @@
+#float-list
+{
+position:relative;
+width: 100%;
+overflow:auto;
+}
+#float-list .float-dl
+{
+float:left;
+margin: 0;
+padding: 0;
+}
+#float-list .float-dl dt, #float-list .float-dl dd
+{
+margin: 0;
+padding: 0;
+}

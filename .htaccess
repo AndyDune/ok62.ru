@@ -1,0 +1,38 @@
+ErrorDocument 404 /
+Options -Indexes
+
+<IfModule mod_charset.c> 
+  CharsetRecodeMultipartForms off 
+  # и другие директивы mod_charset
+</IfModule>
+
+RewriteEngine on
+Options +FollowSymLinks
+RewriteBase /
+
+
+
+#RewriteCond   %{HTTP_HOST}                 !^www\.ar
+#RewriteCond   %{HTTP_HOST}                 !^ar
+RewriteCond %{REQUEST_URI} !^/_
+RewriteCond %{REQUEST_URI} !^/img
+RewriteCond %{REQUEST_URI} !^/get_phone.php
+
+#RewriteCond %{REQUEST_URI} !^/images
+RewriteCond %{REQUEST_URI} !\.(js|ico|gif|jpg|png|css|swf)$
+RewriteRule ^(.*)$ index.php [L]
+
+#RewriteRule ^([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?&?([-a-zA-Z0-9_=%&:@=.+!/~*'%$]*)$ #index.php?p1=$1&p2=$2&p3=$3&p4=$4&p5=$5&$6
+
+#RewriteRule ^([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?([-a-zA-Z0-9_]*)/?(&[-a-zA-Z0-9_=%&:@=.+!/~*'%$]*)?$ index.php?p1=$1&p2=$2&p3=$3&p4=$4&p5=$5$6
+
+
+
+php_flag magic_quotes_gpc Off
+
+
+
+
+#RewriteCond   %{HTTP_HOST}                 ^www\.[^.]+\.site-\.ru$
+#RewriteRule   ^(.+)                        %{HTTP_HOST}$1          [C]
+#RewriteRule   ^www\.([^.]+)\.site-\.ru(.*) /home/$1$2

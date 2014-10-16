@@ -1,0 +1,28 @@
+#talk-form
+{
+padding: 5px 0 5px 0;
+margin: 10px 0 0 0;
+text-align:center;
+background-color: #F1F5E3;
+width: 100%;
+}
+#talk-form h2
+{
+padding: 0 0 0 20px;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color: #9B9898;
+}
+#textarea-text
+{
+margin: 0 auto 0 auto;
+padding: 2px;
+width: 95%;
+display:block;
+height: 200px;
+}
+#buttom-submit
+{
+font-size:16px;
+padding: 5px;
+}

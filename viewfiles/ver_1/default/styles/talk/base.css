@@ -1,0 +1,223 @@
+#edge
+{
+visibility:hidden;
+}
+.talk_topic_list
+{
+text-align:center;
+border-collapse:collapse;
+width: 100%;
+}
+.talk_topic_list th
+{
+border-bottom: 2px solid #666666;
+}
+.talk_topic_list td
+{
+padding: 4px;
+}
+
+.talk_topic_list tr td.text
+{
+text-align:left;
+}
+
+.talk_topic_list tr.have_talk
+{
+background-color:#CCCCCC;
+}
+
+.talk_topic_list tr.zebra-1
+{
+background-color:#DCDCDC;
+}
+/* Коенц описания для таблцы  объектов для общения */
+
+div.two-object-in-list
+{
+width: 100%;
+overflow:auto;
+}
+.two-object-in-list div.one-object-in-list
+{
+width: 50%;
+float:left;
+display:inline;
+padding: 5px 0 5px 0;
+}
+.two-object-in-list div.one-object-in-list .one-object-in-list-text
+{
+padding: 0 10px 0 110px;
+margin: 0;
+}
+.two-object-in-list div.one-object-in-list h4
+{
+margin: 0;
+padding: 0;
+}
+.two-object-in-list div.one-object-in-list .one-object-in-list-info
+{
+width: 100%;
+overflow:auto;
+}
+.two-object-in-list div.one-object-in-list .one-object-in-list-info .one-object-in-list-more-info
+{
+padding: 0 0 0 6px;
+}
+
+.two-object-in-list div.one-object-in-list img
+{
+float:left;
+}
+
+* html .two-object-in-list div.one-object-in-list {
+margin: 0 -3px 0 0;
+}
+
+
+
+#talk_page
+{
+	z-index: 2;
+	margin:  20px auto;
+	overflow: auto;
+	
+	padding: 0;
+}
+#talk_page #talk-page-main-part {
+	margin-left: -100%;
+	width: 100%;
+	z-index: 2;
+}
+#talk_page #talk-page-main-part .sap-content
+{
+padding: 0px 270px 0 0;
+margin: 0 0 0 0;
+}
+
+#talk_page #talk-page-add-part {
+	margin-left: -250px;
+	width: 250px;
+	z-index: 2;
+
+}
+#talk_page #talk-page-add-part .sap-content
+{
+padding: 0px 0 0 0;
+margin: 0 15px 0 0;
+text-align:center;
+position:relative;
+}
+#talk_page #talk-page-add-part .sap-content p
+{
+text-align:left;
+}
+
+#talk_page #talk-list
+{
+height: 500px;
+overflow-y:scroll;
+background-color:#FFFFFF;
+}
+#talk_page #talk-list dl.one-message
+{
+margin:0;
+padding: 0;
+}
+
+#talk_page #talk-list dl.one-message dt
+{
+display:block;
+padding: 5px 5px 0px 30px;
+margin: 0;
+color:#FF0000;
+font-weight:bold;
+background: url(_img/mess/1.gif) no-repeat 10px 7px;
+}
+#talk_page #talk-list dl.one-message dd
+{
+padding: 5px 5px 5px 10px;
+margin: 0;
+}
+
+#talk_page #talk-list dl.one-message dt a
+{
+color:#FF0000;
+}
+
+#talk_page #talk-list dl.my-message dt
+{
+color:#0000FF;
+background: url(_img/mess/2.gif) no-repeat 10px 7px;
+}
+#talk_page #talk-list dl.my-message dt a
+{
+color:#0000FF;
+}
+
+
+#talk-form
+{
+overflow:hidden;
+width: 100%;
+}
+#talk-form textarea
+{
+width: 99%;
+height: 100px;
+position:relative;
+}
+
+
+.talk-status-message-new, .talk-status-no-message-no, .talk-status-message-new-no
+{
+width: 100%;
+height: 20px;
+width: 25px;
+display:block;
+float:left;
+}
+
+.talk-status-message-new span, .talk-status-no-message-no span, .talk-status-message-new-no span
+{
+display:none;
+}
+.talk-status-message-new
+{
+background: url(_img/konvertiks/1.gif) no-repeat center center;
+}
+.talk-status-message-new-no
+{
+background: url(_img/konvertiks/3.gif) no-repeat center center;
+}
+
+
+.talk-status-no-message-no
+{
+background: url(_img/konvertiks/2.gif) no-repeat center center;
+}
+
+
+#topic-info-on-talk dl
+{
+text-align:center;
+margin: 5px 0 0 0;
+padding: 0;
+}
+#topic-info-on-talk dl dt
+{
+font-weight:bold;
+margin: 0;
+padding: 0;
+}
+#topic-info-on-talk dl dd
+{
+font-weight:bold;
+margin: 0;
+padding: 0;
+color:#FF0000;
+}
+#topic-info-on-talk dl dd a
+{
+color:#FF0000;
+}

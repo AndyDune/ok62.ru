@@ -1,0 +1,47 @@
+#content-left-table-is
+{
+position:absolute;
+top: 20px;
+left: 0;
+background-color:#CCCCCC;
+width: 200px;
+padding: 5px;
+}
+
+#content-left-table-is h2
+{
+font-size:14px;
+border-bottom: 1px solid #333333;
+margin: 12px 0 5px 0;
+}
+#content-left-table-is ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#content-left-table-is ul li
+{
+margin: 3px 0 0 0;
+text-align:right;
+padding: 0;
+}
+#content-is
+{
+padding: 0 0 0 300px;
+}
+#list-for-seller
+{
+border-collapse:collapse;
+}
+#list-for-seller tr td
+{
+vertical-align:top;
+padding: 2px;
+border-bottom: 1px solid #666666;
+}
+#list-for-seller tr td p
+{
+margin: 2px;
+padding: 1px;

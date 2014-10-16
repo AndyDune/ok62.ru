@@ -1,0 +1,183 @@
+.up-word-small
+{
+font-weight:normal;
+font-size: 60%;
+vertical-align:text-top;
+}
+#more_edit_menu
+{
+position:absolute;
+top: 240px;
+width: 280px;
+left: 2px;
+background-color: #E7E7E7;
+}
+#more_edit_menu a
+{
+padding: 3px;
+margin: 0;
+display:block;
+width: 100%;
+text-decoration:none;
+}
+
+#more_edit_menu a.current
+{
+background-color: #FFFCD5;
+}
+
+#more_edit_menu div
+{
+padding: 10px;
+}
+#more_edit_menu div table
+{
+width: 100%;
+}
+
+
+a.buttom
+{
+background: #fff url(_img/form_bg.png) repeat-x left bottom;
+padding: 5px;
+border: 1px solid #333333;
+text-decoration:none;
+font-size:14px;
+color:#000000;
+}
+a.buttom:hover
+{
+background: #fff;
+}
+.dl-seller
+{
+background-color:#F2F1F1;
+}
+table th
+{
+color: #8B8789;
+}
+.p-center-say
+{
+text-align:center;
+margin: 10px;
+font-size:18px;
+}
+.table-common-list
+{
+width: 100%;
+border-collapse:collapse;
+}
+.table-common-list th
+{
+border-bottom: 2px solid #666666;
+}
+.table-common-list tr td
+{
+text-align:center;
+border: 1px solid #666666;
+}
+.table-common-list tr td.text
+{
+text-align:left;
+}
+/*  Меню главное верхнее  */
+#menu-general-top
+{
+position:absolute;
+right: 10px;
+top: 0px;
+}
+#menu-general-top ul
+{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+#menu-general-top ul li
+{
+float:right;
+padding: 10px 10px 0px 10px;
+margin: 0;
+border-left: 1px solid #E3E3E3;
+}
+#menu-general-top ul li a
+{
+color:#818181;
+}
+#menu-general-top ul li a:hover
+{
+color:#FF0000;
+}
+
+#menu-general-top ul li.extreme
+{
+border-left: 0px solid #E3E3E3;
+}
+
+
+.navigator
+{
+margin: 5px 0 5px 0;
+}
+.navigator a, .navigator span
+{
+margin: 3px;
+padding: 3px;
+font-size: 110%;
+}
+.navigator a
+{
+color:#FF0000;
+}
+.navigator span
+{
+background-color:#FF0000;
+color:#FFFFFF;
+}
+
+.a-underline-dashed
+{
+text-decoration:none;
+border-bottom-style:dashed;
+border-bottom-width:thin;
+}
+.a-underline-dashed:hover
+{
+border-bottom-width: 0px;
+}
+.a-underline-line
+{
+text-decoration:none;
+border-bottom-style:solid;
+border-bottom-width:thin;
+}
+.a-underline-line:hover
+{
+border-bottom-width: 0px;
+}
+
+select
+{
+width: 100%;
+}
+select option.opt-main
+{
+display:block;
+background-color:#E8E8E8;
+font-weight:bold;
+}
+select .opt-not-main
+{
+padding: 0 0 0 20px;
+}
+
+#crumbs-info
+{
+margin: 0 0 10px 5px;
+font-size:11px;
+}
+#crumbs-info a
+{
+font-size:11px;
+}

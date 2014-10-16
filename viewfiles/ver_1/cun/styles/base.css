@@ -1,0 +1,508 @@
+*
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+p, ul, dl, a, div
+{
+font-size:13px;
+}
+a
+{
+outline: none;
+color:#000000;
+}
+a:hover
+{
+color:#FF0000;
+text-decoration:none;
+}
+
+h1, h2, h3, h4
+{
+font-family:"Times New Roman", Times, serif;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+margin-top: 0;
+padding-top: 5px;
+padding-left: 15px;
+color: #8B8789;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1 a
+{
+color: #8B8789;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+h3
+{
+color: #8B8789;
+padding-left: 5px;
+border-bottom: 1px solid #666666;
+width: 350px;
+}
+h3.ex
+{
+color: #8B8789;
+padding-left: 5px;
+border-bottom: 1px solid #666666;
+width: 100%;
+}
+
+
+html, body
+{
+margin: 0;
+padding: 0;
+width:100%;
+height:100%;
+min-width: 1000px;
+}
+
+#mega-main
+{
+background: url(img/1.jpg) no-repeat left top;
+position:relative;
+}
+
+div
+{
+margin: 0;
+padding: 0;
+}
+a img
+{
+border-width: 0;
+}
+a:hover
+{
+color:#FF0000;
+text-decoration:none;
+}
+#main-no-footer
+{
+position:relative;
+min-height: 100%;
+min-height: 700px;
+}
+*html #main-no-footer
+{
+  height: 100%;
+}
+#mega-content
+{
+padding: 0 10px 0 0px;
+margin: 0 0 0 10px;
+position:relative;
+}
+#footer
+{
+clear:both;
+position:relative;
+height: 50px;
+background-color: #E8E8E8;
+margin: 20px 0 20px 0;
+}
+#generate_time
+{
+position:absolute;
+bottom: 0;
+right: 5px;
+}
+#bottom_link
+{
+position:absolute;
+bottom: 0;
+right: 5px;
+}
+#bottom_link a
+{
+font-size: 10px;
+}
+
+#header{
+position:relative;
+height: 170px;
+adding: 0 0 0 300px;
+background: url(img/des/header.png) repeat-x bottom;
+z-index: 11;
+}
+#header-inside
+{
+position:absolute;
+right: 20px;
+top: 40px;
+width: 141px;
+height: 91px;
+}
+#content
+{
+position:relative;
+padding: 0 0 20px 0;
+}
+
+#logo
+{
+position:absolute;
+bottom: 60px;
+left: 60px;
+}
+#logo-2
+{
+position:absolute;
+bottom: 32px;
+left: 50%;
+margin-left: -250px;
+width: 508px;
+height: 138px;
+}
+#logo-3
+{
+overflow:hidden;
+display:block;
+position:absolute;
+width: 141px;
+height: 71px;
+right: 15px;
+top: 38px;
+z-index: 10;
+}
+
+#site-name
+{
+position:absolute;
+padding: 0;
+margin: 0;
+bottom: 6px;
+left: 40px;
+font-size:18px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+}
+#site-name a
+{
+color:#FF0000;
+font-size:20px;
+text-decoration:none;
+}
+
+#p-sell-buttom
+{
+position:absolute;
+padding: 0;
+margin: 0;
+bottom: 7px;
+right: 20px;
+}
+#p-object-go
+{
+position:absolute;
+padding: 0;
+margin: 0 ;
+bottom: 5px;
+right: 20px;
+}
+
+#p-sell-buttom a
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#FF0000;
+font-size:18px;
+}
+#p-sell-buttom a:hover
+{
+text-decoration:none;
+}
+
+
+
+#system-message
+{
+text-align:center;
+font-size:14px;
+color:#FF0000;
+width: 400px;
+margin: 0 auto 0 auto;
+padding: 5px;
+}
+
+#system-message-good
+{
+text-align:center;
+font-size:14px;
+font-weight: bold;
+color:#000000;
+width: 400px;
+margin: 0 auto 0 auto;
+padding: 5px;
+}
+/* Сборник углов в дизайне */
+.ugol-left-top, .ugol-left-bottom, .ugol-right-top, .ugol-right-bottom
+{
+position:absolute;
+width: 14px;
+height: 16px;
+}
+.ugol-left-top
+{
+left: 0;
+top: 0;
+background: url(img/ugols/l-1.png) no-repeat left top;
+}
+.ugol-left-bottom
+{
+left: 0;
+bottom: -1px;
+background: url(img/ugols/l-2.png) no-repeat left bottom;
+}
+.ugol-right-top
+{
+right: 0;
+top: 0;
+background: url(img/ugols/r-1.png) no-repeat right top;
+}
+.ugol-right-bottom
+{
+right: 0;
+bottom: -1px;
+background: url(img/ugols/r-2.png) no-repeat right bottom;
+}
+
+/* Сборник углов в дизайне */
+.ugol-left-top-white, .ugol-left-bottom-white, .ugol-right-top-white, .ugol-right-bottom-white
+{
+position:absolute;
+width: 14px;
+height: 16px;
+}
+.ugol-left-top-white
+{
+left: 0;
+top: 0;
+background: url(img/ugols2/l-1.png) no-repeat left top;
+}
+.ugol-left-bottom-white
+{
+left: 0;
+bottom: 0;
+background: url(img/ugols2/l-2.png) no-repeat left bottom;
+}
+.ugol-right-top-white
+{
+right: 0;
+top: 0;
+background: url(img/ugols2/r-1.png) no-repeat right top;
+}
+.ugol-right-bottom-white
+{
+right: 0;
+bottom: 0;
+background: url(img/ugols2/r-2.png) no-repeat right bottom;
+}
+
+#dinamic-messages
+{
+width: 100%;
+padding: 0 0 0 0;
+position:relative;
+top: 7px;
+overflow:hidden;
+}
+#dinamic-messages ul
+{
+list-style-type: none;
+padding: 0 0px 0 0;
+margin: 0;
+width: 100%;
+overflow:auto;
+}
+#dinamic-messages ul.no-script
+{
+float:left;
+margin: 0 0 0 10px;
+padding: 1px;
+background-color:#E8E8E8;
+}
+
+/* liScroll style declarations */
+.tickercontainer { /* the outer div with the black border */
+
+border: 1px solid #999999;
+
+background: #E8E8E8;
+
+height: 27px; 
+margin: 0; 
+padding: 0 20px 0 0;
+overflow: hidden;
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+left: 10px;
+top: 2px;
+overflow: hidden;
+padding: 0 0 0 0;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+left: 100%;
+font: normal 10px Verdana;
+font-size:14px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+position:relative;
+white-space:nowrap;
+}
+ul.newsticker li span.background {
+margin: 0 5px 0 0;
+padding: 3px 10px;
+/*
+background: #E8E8E8;
+*/
+float:left;
+position:relative;
+font-style:normal;
+display:block;
+}
+ul.newsticker li span.background img {
+float:left;
+padding: 0 3px 0 3px;
+position:relative;
+top: -1px;
+}
+
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+color: #ff0000;
+font: normal 10px Verdana;
+margin: 0 0 0 0;
+font-size:14px;
+} 
+ul.newsticker span {
+margin: 0 10px 0 0;
+font-style:italic;
+} 
+
+
+
+/* ******************* */
+/* Для отганизации волшебных колонок */
+.line {
+	float: left;
+	width: 100%;
+	display: block;
+	position: relative; /*prevents shifting when changing viewport in IE;thanks to Alan Gresley*/
+}
+
+.item {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	left: 100%;
+}
+
+.sap-content {
+	overflow: hidden;
+}
+/* /******************* */
+
+
+.floats
+{
+/* Компенсируем отступы между float-блоками, чтобы они занимали все доступное пространство */
+
+
+/* Эти правила для IE */
+position: relative;
+display: inline-block;
+clear: both;
+}
+.floats:after
+{
+content: '';
+display: block;
+clear: both;
+}
+
+
+
+#auth-field-not-in-main
+{
+position:absolute;
+top: 5px;
+left: 0px;
+z-index: 5;
+}
+
+#crumbs
+{
+}
+
+#crumbs a
+{
+font-size: 100%;
+color:#000;
+}
+#crumbs a:hover
+{
+color:#FF0000;
+}
+
+#crumbs
+{
+font-size: 80%;
+}
+
+.no-script
+{
+display:none;
+}
+.ul-like-table
+{
+list-style-type:none;
+display:table;
+margin: 0;
+padding: 0;
+}
+.ul-like-table-100
+{
+width: 100%;
+}
+
+.ul-like-table li
+{
+vertical-align:middle;
+display:table-row;
+padding: 0;
+margin: 0;
+}
+.ul-like-table li span.span-half
+{
+width: 48%;
+display:block;
+float:left;
+}
+
+
+.ul-like-table li input
+{
+vertical-align:middle;
+}
+.li-like-table-sell
+{
+display:table-cell;
+}
+
+#data_read_menu a {
+	text-decoration: none;
+}

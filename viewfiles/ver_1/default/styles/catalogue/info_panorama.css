@@ -1,0 +1,17 @@
+#td-panorama-preview
+{
+width: 100%; overflow:auto; text-align:center;
+}
+.panorama-link-to-one
+{
+display:inline;
+}
+.panorama-link-to-one img
+{
+display:inline;
+}
+
+.panorama-link-to-one img.active
+{
+border: 1px solid #FF0000;
+}

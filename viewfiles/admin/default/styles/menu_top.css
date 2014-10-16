@@ -1,0 +1,49 @@
+/* CSS Document */
+#menu-top
+{
+z-index: 10;
+padding: 0 0 0 40px;
+}
+#menu-top ul
+{
+top: 1px;
+position:relative;
+margin: 0;
+padding: 0 0 0 0px;
+list-style-type:none;
+overflow:auto;
+width: 100%;
+}
+#menu-top ul li
+{
+display:;
+float:left;
+margin: 0 3px 0 0;
+}
+#menu-top ul li a
+{
+text-decoration:none;
+display:block;
+padding: 2px;
+margin: 0;
+border: 1px solid #666666;
+background-color:#CCCCCC;
+}
+#menu-top ul li a span
+{
+font-size: 150%;
+}
+#menu-top ul li a:hover
+{
+border-bottom: 1px solid #fff;
+background-color:#FFFFFF;
+}
+
+#body_total #menu-top ul li a.main-menu-total,
+#body_catalogue #menu-top ul li a.main-menu-catalogue,
+#body_info #menu-top ul li a.main-menu-info
+{
+border-bottom: 1px solid #fff;
+background-color:#FFFFFF;
+}
+

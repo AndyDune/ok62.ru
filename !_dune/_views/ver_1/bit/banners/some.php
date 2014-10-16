@@ -1,0 +1,4 @@
+<div><a href="/public/plan/draw/"><img src="/data/banners/left/1/img/1.gif" width="270" height="130" /></a></div>
+<div><a target="_blank" href="http://www.edinstvo62.ru/modules.php?name=Hypothec&op=ShowHypothecClub&c=vmeste"><img src="/data/banners/img/ipoteka.gif" width="270" height="130" /></a></div>
+<div><a href="/modules.php?name=Hypothec&op=Calculation"><img src="/data/banners/img/kalk.gif" width="270" height="130" /></a></div>
+<div><a title="Дисконтная карта «Единство» в подарок!" href="/read/clients-diskont/"><img src="/data/banners/img/diskont.gif" width="260" height="130" alt="Дисконтная карта «Единство» в подарок!" /></a></div>

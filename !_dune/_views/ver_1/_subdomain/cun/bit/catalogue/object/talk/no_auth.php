@@ -1,0 +1,1 @@
+<p id="talk-no" style="color:red; text-align:center; font-size: 130%;"><a style="color:red; font-size: 120%;" href="/user/enter/">Авторизуйтесь чтобы оставить сообщение.</a></p>

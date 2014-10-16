@@ -1,0 +1,136 @@
+/* CSS Document */
+*
+{
+font-size:14px;
+}
+body, div
+{
+margin: 0;
+padding: 0;
+}
+div
+{
+position:relative;$
+}
+a
+{
+outline:none;
+color:#0033CC;
+}
+a:hover
+{
+color:#FF0000;
+text-decoration:none;
+}
+img
+{
+border-width: 0;
+}
+body
+{
+background-color: #f3efec;
+}
+#header
+{
+height: 100px;
+}
+#middle
+{
+margin: 0 5px 0 5px;
+padding: 10px;
+border: 1px solid #666666;
+background-color:#FFFFFF
+}
+
+.line {
+float: left;
+width: 100%;
+display: block;
+position: relative;
+}
+.item {
+position: relative;
+float: left;
+left: 100%;
+}
+#canvas
+{
+overflow:hidden;
+width: 100%;
+}
+#item1 {
+z-index: 100;
+margin-left: -100%;
+width: 250px;
+}
+#item2 {
+margin-left: -100%;
+width: 100%;
+padding: 0 0 0 0px;
+ }
+ #item2 .sap-content
+ {
+ padding: 0 0 0 260px;
+ }
+ 
+#head-word-main
+{
+padding: 0;
+margin:0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 400%;
+position:absolute;
+top: 10px;
+left: 50px;
+}
+
+#text
+{
+border: 1px solid #666666;
+padding: 3px;
+}
+#text h1
+{
+color:#FF0000;
+padding: 0 20px 0 0;
+font-size:18px;
+text-align:right;
+}
+.class-add-links
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+width: 100%;
+overflow: auto;
+}
+.class-add-links li
+{
+display:block;
+padding: 0;
+float:left;
+margin: 0 3px 0 3px;
+}
+
+.class-add-links li a
+{
+border: 1px solid #666666;
+display:block;
+padding: 3px;
+background: url(img/sprite.png) repeat-x left top;
+text-decoration:none;
+}
+.class-add-links li a:hover
+{
+padding: 3px;
+background: url(img/sprite.png) repeat-x left 100px;
+}
+#crumbs
+{
+left: 0;
+top: 0;
+}
+#tabs-menu #info-cols tr td
+{
+vertical-align:top;
+}

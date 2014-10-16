@@ -1,0 +1,56 @@
+#talk-list
+{
+padding: 5px 10px 5px 10px;
+margin: 10px 0 0 0;
+text-align:center;
+background-color: #F1F5E3;
+}
+#talk-list h2
+{
+padding: 0 0 0 20px;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color: #9B9898;
+}
+#talk-list h2.h2-message
+{
+text-align:center;
+}
+
+#talk-list dl
+{
+display:block;
+padding: 0;
+margin: 10px 0 0 0;
+width: 95%;
+overflow:auto;
+}
+#talk-list dl dt
+{
+display:block;
+padding: 0;
+margin: 0;
+width: 100px;
+float:left;
+}
+#talk-list dl dd
+{
+text-align:left;
+display:block;
+padding: 5px;
+margin: 0 0 0 110px;
+border-left: 1px solid #999999;
+min-height: 50px;
+position:relative;
+}
+.user-info-shot
+{
+padding: 0;
+margin: 0;
+list-style-type:none;
+}
+.user-info-shot li
+{
+padding: 0;
+margin: 0;
+}

@@ -1,0 +1,153 @@
+#canvas {
+/*	width:  100%;
+*/
+	margin:  20px auto;
+	overflow: auto;
+	
+	padding: 0;
+	}
+
+/*generic css for all elements*/
+img {
+	display: block; /*needed to avoid alignment with baseline of text*/
+}
+
+.line {
+	float: left;
+	width: 100%;
+	display: block;
+	position: relative; /*prevents shifting when changing viewport in IE;thanks to Alan Gresley*/
+}
+
+.item {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	left: 100%;
+}
+
+.sap-content {
+	overflow: hidden;
+}
+
+/*item specific css*/
+#line1 {
+}
+
+#catalogue-left {
+	margin-left: -100%;
+	width: 23%;
+
+}
+
+#catalogue-main {
+	margin-left: -77%;
+	width: 77%;
+}
+#catalogue-main .sap-content{
+padding-right: 268px;
+}
+
+
+#catalogue-right {
+	margin-left: -260px;
+	width: 260px;
+}
+#content-adress-main
+{
+padding: 0 0 0 0px;
+margin: 0;
+text-align:left;
+position:relative;
+}
+#adress-list-main-level-1
+{
+position:relative;
+left: 0;
+padding: 0;
+margin: 0;
+list-style-type:none;
+font-size:18px;
+}
+#adress-list-main-level-1 li 
+{
+padding: 1px 0 0 0;;
+margin: 0;
+}
+#adress-list-main-level-1 li a
+{ 
+font-size:18px;
+}
+#adress-list-main-level-2 li a
+{ 
+font-size:14px;
+}
+
+#adress-list-main-level-1 li span
+{
+border-bottom: 1px solid #666666;
+}
+#adress-list-main-level-2 li span
+{
+font-size:14px;
+}
+
+#adress-list-main-level-2
+{
+list-style-type:none;
+padding: 2px 0 2px 4px;
+margin: 0 0 0 10px;
+border-left: 1px solid #666666;
+}
+#adress-list-main-level-3
+{
+list-style-type:none;
+padding: 2px 0 2px 4px;
+margin: 0 0 0 10px;
+border-left: 1px solid #666666;
+}
+#adress-list-main-level-3 li span
+{
+border-bottom: none;
+}
+
+#type-list
+{
+padding: 0 0 0 0px;
+width: 100%;
+overflow:auto;
+}
+#type-list ul
+{
+margin: 0;
+padding: 0 0 0 0px;
+list-style-type:none;
+}
+#type-list ul li
+{
+float:left;
+padding: 7px;
+margin: 2px;
+}
+
+#type-list ul li a
+{
+display:block;
+padding: 7px;
+margin: 2px;
+border: 1px dotted #666666;
+background-color:#999999;
+}
+
+#type-list ul li span
+{
+display:block;
+padding: 7px;
+margin: 2px;
+border: 1px dotted #666666;
+}
+.focus-red
+{
+color:#FF0000;
+font-size: 110%;
+}

@@ -1,0 +1,92 @@
+#div-main-page-elected-list
+{
+padding: 30px 0 0 0;
+text-align:center;
+}
+
+#div-main-page-elected-list #div-objects-list
+{
+/*
+width: 700px;
+*/
+margin: 0 auto 0 auto;
+}
+
+#div-main-page-elected-list #div-objects-list table
+{
+width: 100%;
+}
+#div-main-page-elected-list #div-objects-list table tr th
+{
+color: #FF0000;
+font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+}
+
+#div-main-page-elected-list #div-objects-list table tr td
+{
+text-align:left;
+}
+
+#div-main-page-elected-list #div-objects-list table tr td.td-objects-list-buffer
+{
+height: 3px;
+background:url(_img/table-buffer-line.png) no-repeat center bottom;
+}
+
+#div-main-page-elected-list #div-objects-list table tr td.td-objects-list-image
+{
+width: 110px;
+vertical-align:middle;
+}
+
+#div-main-page-elected-list #div-objects-list table tr td.td-objects-list-image img
+{
+border: 1px solid #999999;
+padding: 1px;
+}
+
+#div-main-page-elected-list #div-objects-list table tr td.td-objects-list-info
+{
+vertical-align:top;
+}
+#div-main-page-elected-list #div-objects-list .objects-list-name
+{
+padding: 5px 0 0 0;
+margin: 0;
+}
+#div-main-page-elected-list #div-objects-list .objects-list-adress
+{
+padding: 1px 0 0 0;
+margin: 0;
+color: #676767;
+}
+
+#div-main-page-elected-list #div-objects-list .objects-list-name a
+{
+color:#000000;
+font-weight:bold;
+}
+
+
+#div-main-page-elected-list #div-objects-list table tr td.td-objects-list-price
+{
+width: 120px;
+vertical-align:middle;
+text-align:center;
+}
+
+#div-objects-list span.no-wrap
+{
+display:block;
+white-space:nowrap;
+}
+#div-objects-list span.price-old
+{
+text-decoration:line-through;
+}
+#div-objects-list span.price-new
+{
+color:#FF0000;
+font-weight:bold;
+}
+

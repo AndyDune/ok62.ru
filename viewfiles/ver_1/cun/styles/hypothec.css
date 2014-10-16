@@ -1,0 +1,508 @@
+.star-mandatory
+{
+color:#FF0000;
+}
+#ul-hipotec-left-menu
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+#ul-hipotec-left-menu li.active-level-1
+{
+background-color:#FFFCD5;
+}
+
+h2
+{
+color:#8B8789;
+font-size:16px;
+}
+div
+{
+font-size: 12px;
+}
+/* Сообщение красное, следует снизу за основной текстой */
+.message-red-stick
+{
+color:#FF0000;
+margin: 2px 5px 5px 0;
+}
+.message-nocolor-stick
+{
+margin: 2px 5px 5px 0;
+}
+.glossary-item
+{
+padding: 10px;
+}
+.glossary-item dt
+{
+font-weight:bold;
+font-size: 110%;
+}
+.glossary-item dd
+{
+padding: 5px 0 0 0;
+}
+
+
+
+.redborder
+{}
+.blueborder
+{}
+
+.program .first
+{
+width: 300px;
+vertical-align:top;
+}
+.program h2
+{
+border-bottom: 1px solid #DA251D;
+}
+
+.program ul
+{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+
+.progam-comment
+{
+margin: 1px 0;
+padding: 1px 0;
+}
+.expenses-table
+{
+border-collapse:collapse;
+border: 1px solid #666666;
+}
+.expenses-table td
+{
+text-align:center;
+padding: 3px;
+border-collapse:collapse;
+border: 1px solid #EE9D99;
+}
+.expenses-table th
+{
+padding: 4px;
+font-size:14px;
+border: 1px solid #EE9D99;
+color: #fff;
+background-color:#ED4D00;
+}
+.expenses-table td.first
+{
+text-align:left;
+padding: 4px;
+}
+.expenses-table td.first a
+{
+text-decoration:underline;
+}
+.expenses-table td
+{
+width: 80px;
+}
+.expenses-table td.first
+{
+width: 100%;
+}
+
+.hilight-mover
+{
+background-color:#ED4D00;
+}
+#left-menu
+{
+padding: 0;
+margin: 0 0 15px 0;
+list-style-type:none;
+width: 200px;
+}
+#left-menu li
+{
+margin: 5px 0 0 0;
+padding: 1px 0 2px 22px;
+font-size:14px;
+background:url(img/bulm.gif) no-repeat left center;
+}
+#left-menu li.active-level-1
+{
+font-weight:bold;
+}
+#left-menu li a
+{
+display:block;
+}
+.add-to-com-a
+{
+text-decoration:none;
+font-size: 18px;
+display:block;
+border: 1px solid #DA251D;
+padding: 0px 3px;
+color:#DA251D;
+}
+.add-to-com-a:hover
+{
+text-decoration:none;
+border: 1px solid #000;
+color:#000;
+}
+#hypotec-info
+{
+position:relative;
+}
+#to-compare-a
+{
+background-color: #ECE9D8;
+text-decoration:none;
+position:absolute;
+right: 10px;
+top: 0px;
+display:block;
+padding: 5px;
+border: 1px solid #666666;
+}
+#to-compare-a:hover
+{
+background-color: #fff;
+text-decoration:none;
+}
+
+#to-search
+{
+text-align:center;
+background-color: #ECE9D8;
+text-decoration:none;
+display:block;
+padding: 5px;
+margin: 5px;
+border: 1px solid #666666;
+}
+#to-search:hover
+{
+background-color: #fff;
+text-decoration:none;
+}
+
+
+#general-report
+{
+text-align:center;
+font-size:18px;
+padding-top: 100px;
+}
+.search-table-td-name
+{
+width: 200px;
+}
+.search-h2
+{
+border-bottom: 1px solid #DA251D;
+}
+#hypotec-info td
+{
+padding: 2px 0;
+}
+#hypotec-info input, #hypotec-info select, #hypotec-info option
+{
+font-size:14px;
+padding: 2px 0 2px 0;
+}
+#hypotec-info input.hypo-submit
+{
+padding: 3px 10px 3px 10px;
+}
+
+.articles-list-parents
+{
+list-style-type:none;
+font-size:16px;
+font-weight:bold;
+}
+.articles-list-parents li a
+{
+}
+.articles-list-children
+{
+font-weight:normal;
+margin: 0 0 20px 0;
+}
+#text-article-notice
+{
+margin: 0 60px 0 60px;
+padding: 5px;
+font-style:italic;
+}
+
+.table-header-tr a
+{
+color:#FFFFFF;
+text-decoration:underline;
+}
+.table-header-tr a:hover
+{
+text-decoration:none;
+}
+.table-header-tr th.order-down a
+{
+display:block;
+padding: 0 12px 0 0;
+background:url(img/order_down.gif) no-repeat right center;
+}
+.table-header-tr th.order-down a:hover
+{
+padding: 0 12px 0 0;
+background:url(img/order_up.gif) no-repeat right center;
+}
+.table-header-tr th.order-up a
+{
+display:block;
+padding: 0 12px 0 0;
+background:url(img/order_up.gif) no-repeat right center;
+}
+.table-header-tr th.order-up a:hover
+{
+padding: 0 12px 0 0;
+background:url(img/order_down.gif) no-repeat right center;
+}
+/* Кнопка назад в мастере прог.*/
+#hypo-master-back-a
+{
+font-weight:normal;
+font-size:12px;
+text-align:center;
+background-color: #ECE9D8;
+text-decoration:none;
+padding: 5px;
+margin: 5px;
+border: 1px solid #666666;
+display:inline;
+width: 90px;
+line-height: 14px;
+height: 27px;
+position:relative;
+top: 0;
+vertical-align:middle;
+}
+#hypo-master-back-a:hover
+{
+color:#000000;
+}
+/* Кнопка далее в мастере прог.*/
+#master-form-buttoms .hypo-submit
+{
+display:inline;
+font-size:12px;
+padding: 5px;
+margin: 5px;
+border: 1px solid #666666;
+cursor:pointer;
+width: 90px;
+line-height: 14px;
+height: 27px;
+vertical-align:middle;
+}
+/* Параграф с кнопками в мастере прог.*/
+#master-form-buttoms
+{
+line-height: 14px;
+position:relative;
+margin: 30px 0 0 0; 
+padding: 0; 
+text-align:center; 
+vertical-align: bottom;
+}
+/* Сообщение о колличестве программ с введёнными условиями */
+#master-count-progs-a
+{
+position:absolute;
+right: 0;
+top: -60px;
+font-weight:normal;
+font-size:12px;
+text-align:center;
+background-color: #ECE9D8;
+text-decoration:none;
+padding: 5px;
+margin: 5px;
+border: 1px solid #666666;
+display:block;
+width: 200px;
+}
+
+#master-div input, #master-div select, #master-div .search-table-td-name
+{
+font-size:16px;
+padding: 2px;
+}
+#master-div table
+{
+width: 100%;
+}
+.master-text-td
+{
+padding: 20px 100px 20px 100px;
+}
+#master-div .search-table-td-name
+{
+width: 40%;
+text-align:right;
+padding-right: 20px;
+}
+
+div#programs-list-mach
+{
+width: 100%;
+/*
+overflow:scroll;
+*/
+}
+
+div#programs-list-mach table tr td
+{
+vertical-align:top;
+}
+
+#programs-list-mach .program table
+{
+border-collapse:collapse;
+border-bottom: 1px solid #EE9D99;
+width: auto;
+width:inherit;
+}
+.program td
+{
+padding: 3px;
+}
+
+td.programs-list-one-info-td
+{
+border-left: 1px solid #EE9D99;
+border-right: 1px solid #EE9D99;
+border-collapse:collapse;
+
+}
+td.programs-list-one-info-td strong
+{
+padding: 0;
+margin: 0;
+display:block;
+text-align:center;
+}
+
+td.programs-list-one-info-td strong, td.first span
+{
+min-width: 150px;
+}
+
+tr.programs-list-h2 td
+{
+border-collapse:collapse;
+border: 1px solid #DA251D;
+}
+tr.programs-list-h2 td strong
+{
+color:#DA251D;
+}
+
+tr.programs-list-h2 td h2
+{
+border: none;
+}
+.content-center-one-info
+{
+margin: 0;
+padding: 0;
+text-align:center;
+display:block;
+font-weight:bold;
+}
+.content-center-one-info a
+{
+}
+
+.no-wrap
+{
+white-space:nowrap;
+}
+.pasporka
+{
+width: 150px;
+line-height: 1px;
+height: 1px;
+}
+.p-name-in-shot-table
+{
+display: block; font-size: 120%; margin: 0 0 5px 0; padding: 3px;
+font-weight:normal;
+}
+.b-name-in-shot-table
+{
+display: block; margin: 0 0 5px 0; padding: 3px;
+font-weight:normal;
+font-style:italic;
+}
+/*  Для вывода списка глоссариев */
+#glossary-list
+{
+padding: 20px;
+}
+
+#glossary-list h1
+{
+font-size:36px;
+text-align:center;
+}
+#glossary-words-list
+{
+text-align:center;
+font-weight:bold;
+font-size:16px;
+}
+#glossary-words-list a
+{
+text-decoration:underline;
+color:#DA251D;
+}
+#glossary-words-list a:hover
+{
+text-decoration:none;
+color:#000;
+}
+
+.glossary-item-word dt
+{
+font-weight:bold;
+font-size:16px;
+color:#DA251D;
+padding: 0;
+margin: 0;
+
+}
+.glossary-item-word dd
+{
+padding: 0;
+margin: 0;
+}
+.glossary-list-one-word
+{
+padding: 0;
+margin: 0 0 10px 20px;
+list-style-type:none;
+}
+.glossary-list-one-word li
+{
+padding: 3px 0 0 0;
+font-size:14px;
+}
+#glossary-one-text
+{
+padding: 10px 20px;
+}

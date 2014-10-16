@@ -1,0 +1,62 @@
+#canvas-info-3col {
+/*	width:  100%;
+*/
+	z-index:2;
+	margin:  20px auto;
+	overflow: auto;
+	
+	padding: 0;
+	}
+
+
+/*item specific css*/
+#canvas-info-3col #line1 {
+}
+
+#canvas-info-3col #info-3col-left {
+	margin-left: -100%;
+	width: 260px;
+	z-index: 2;
+
+}
+#canvas-info-3col #info-3col-left .sap-content
+{
+padding: 70px 0 0 0;
+margin: 0 15px 0 0;
+}
+
+#canvas-info-3col #info-3col-center {
+	margin-left: -100%;
+	width: 100%;
+}
+#canvas-info-3col #info-3col-center .sap-content{
+padding: 0 270px 0 260px;
+}
+
+
+
+#canvas-info-3col #info-3col-right {
+	margin-left: -260px;
+	width: 260px;
+}
+#canvas-info-3col #info-3col-right .sap-content{
+
+}
+
+
+
+#catalogue-right {
+	margin-left: -260px;
+	width: 260px;
+}
+
+
+
+#canvas-info-3col #info-2col-right {
+	margin-left: -100%;
+	width: 100%;
+}
+#canvas-info-3col #info-2col-right .sap-content{
+padding: 0 10px 0 260px;
+}
+

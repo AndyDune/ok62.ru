@@ -1,0 +1,1190 @@
+0.129.01
+
+История версий:
+
+0.129.01 (2009 июль 28)
+--------------------------
+Dune_String_Interface_Container
+Dune_String_Container
+Dune_String_ContainerMB
+     *  Введен метод ucfirst()
+
+0.129.00 (2009 июль 24)
+--------------------------
+Dune_File_Delete !NEW! Удаление файла
+     * Не поверен. Нет комментов.
+
+0.128.13 (2009 июль 24)
+--------------------------
+Dune_AsArray_File_String
+      * Проверка папки на возможность записи.
+      * trim() из конструктора. Совместимость с UTF.
+      * Прерывание при невозможности создания временной директории.
+      * Возможность регистрации в классе Dune_BeforePageOut при вызове метода-фабрики getInstance().
+      * Внедрено настойчивое удаление временных файлов: несколько попыток, задержка.
+
+0.128.12 (2009 июнь 29)
+--------------------------
+Dune_View
+      * Метод assign() принимает массивы.
+     * Печать параметров и небольшого хелпа.
+Dune_Include_Parent_Command
+     * В методе setResult при передаче массива присходит слияние с существующим. Не замена, как раньше.
+
+
+0.128.11 (2009 июнь 28)
+--------------------------
+Dune_Data_Parsing_Date
+     * Выбор имени месаца в 3-х падежах: январь, января, январе
+
+0.128.10 (2009 июнь 26)
+--------------------------
+Dune_Image_Preview_One
+     * Trim используется из контейнера
+
+0.128.08 (2009 июнь 25)
+--------------------------
+Dune_Include_Abstract_Display
+     * Метод assign() принимает массивы.
+
+0.128.09 (2009 июнь 24)
+--------------------------
+Dune_Parsing_Parent_Url
+    * Колличество комманд в переменной.
+    * Новый метод выбора последней команды getLastCommand().
+
+0.128.08 (2009 июнь 23)
+--------------------------
+Dune_Data_Format_Mail
+      * В электронной почте можно использовать тире.
+
+0.128.07 (2009 июнь 20)
+--------------------------
+Dune_Variables
+     * Рабоат с классом конфигурации.
+     * Новый статичкский метод addTitle($text, $prior = true)
+Dune_Parameters
+     * Рабоат с классом конфигурации.
+Dune_Include_Abstract_Display
+     * Статичная переменная self::$viewfiles - путь к папке с файлами видов.
+
+
+0.128.06 (2009 июнь 18)
+--------------------------
+Dune_Include_Abstract_Display
+     * Применен.
+     * Новый метд render() - аналог make()
+     * Обозначение используемых таблиц стилей и скриптов.
+
+
+0.128.05 (2009 июнь 17)
+--------------------------
+Dune_Mysqli_Collector_Set
+       * Обработка данный float
+
+
+0.128.04 (2009 июнь 10)
+--------------------------
+Dune_Data_Format_Mail
+      * В электронной почте можно использовать точку
+Dune_Mysqli_Abstract_SetDataControl
+      * Добавлена обработка типов double
+
+0.128.03 (2009 июнь 3)
+--------------------------
+Dune_Cache
+      * Аналог Duen_Zend_Cache объединенного с Dune_Data_Zend_Cache. 
+
+
+0.128.02 (2009 июнь 2)
+--------------------------
+Dune_Data_Container_Command
+      * Добавлены методы установки и возврата полного пути к папке комманды
+Dune_Include_Command
+      * Используется метод возврата всей папки комманд из объекта коасса Dune_Data_Container_Command
+
+
+0.128.01 (2009 июнь 1)
+--------------------------
+Dune_String_Transform
+      * При замене квычек на елочки открывающиеся елочки получаются и при закрывающемся предыдущем теге.
+
+
+0.128.00 (2009 май 28)
+--------------------------
+Dune_Parameters
+       * Работа с поддоменами.
+Dune_Time_Diff !NEW! 
+      * Работа с интервалами времени.
+
+0.127.04 (2009 май 25)
+--------------------------
+Dune_Array_Container
+      * Контейнер создается рекурсивно и для вложенных массивов.
+      * Новый метод - возврат первоначального массива.
+
+
+0.127.03 (2009 май 23)
+--------------------------
+Dune_Array_Container
+     * Новый метод toArray() - возврат массива как есть
+     * Значение по умолчанию null
+
+
+0.127.02 (2009 май 15)
+--------------------------
+Dune_Directory_Make
+      * Внедрен trim через класс-контейнер.
+
+
+0.127.01 (2009 май 14)
+--------------------------
+Dune_Filter_Get_Total
+     * Строковые функции из контейнера. Класс готов к UTF.
+     * Добавлена реализция интрефейса Countable
+Dune_String_Explode
+     * Строковые функции из контейнера. Класс готов к UTF.
+Dune_Date_MonthName
+     * Строковые функции из контейнера. Только trim() Класс готов к UTF.
+Dune_String_Factory
+     * Новый метод getStringTransform()
+Dune_String_TransformMB !NEW! В точности аналогичен Dune_String_Transform. Замены для UTF.
+
+
+
+0.127.00 (2009 май 13)
+--------------------------
+Dune_Data_Generator_PluralForm !NEW! Склонение существительных с числительными
+
+
+0.126.04 (2009 май 13)
+--------------------------
+Dune_String_Transform
+    * Усовершенствование замены елочеке. Уход от строронней функции.
+    * Новый метод linkNofollow() обработка ссылки как сторонней.
+Dune_Include_Parent_Command
+    * Проверка статуса сравненем с предлвгаемым через функцию strcmp()
+
+
+0.126.03 (2009 май 12)
+--------------------------
+Dune_String_Transform
+      * При замене двойных кавычек елочками - игнорирование кавычек в тегах.
+Dune_Mysqli_Collector_From
+      * Метод addJoinConditionOn() внедрение условия для JOIN. Проверено.
+
+0.126.02 (2009 май 05)
+--------------------------
+Dune_Captcha_MultiWave
+        * Используется для строк контейнер страндартных функций.
+
+0.126.01 (2009 апрель 28)
+--------------------------
+Dune_Static_StylesList
+         * Присоединение спецстилей для ie7
+Dune_String_Functions
+Dune_Mysqli
+
+0.126.00 (2009 апрель 28)
+--------------------------
+Dune_View Ошибка.
+Dune_Parameters Новая Переменная
+Dune_Include_Abstract_Display !NEW! Аналог Dune_View. Шаблон встраивается в класс.
+
+
+0.125.01 (2009 апрель 28)
+--------------------------
+Dune_String_Interface_Container
+        *  Интерфейсы для методов tolower() и toupper().
+Dune_String_Container
+Dune_String_ContainerMB
+       *  Новые методы tolower() и toupper().
+Dune_String_CutShort
+       * !! Функционал не полный.
+       * Работа со строками через методы класса.
+
+0.125.00 (2009 апрель 27)
+--------------------------
+Dune_Mysqli_Collector_From !NEW! Сборщик FROM для запроса в БД.
+Dune_Parameters
+       * Новая переменная $multiByte. Флаг использования мультибайтовых строк.
+Dune_String_Interface_Container
+       * Интерфейс для метода setString().
+Dune_String_Container
+Dune_String_ContainerMB
+      * Новый метод setString(). Вызов конструктора без передачи строки.
+Dune_String_Factory
+      *  Вызов метода-фабрики без передачи строки.
+      *  Информация об используемой кодировке берется из класса Dune_Parameters.
+Dune_Parsing_Parent_Url
+      * Длина строк и подстрока определяется через спец классы.
+
+
+0.124.01 (2009 апрель 24)
+--------------------------
+Dune_AsArray_File_String
+     * Строковые функции в обертку.
+
+0.124.00 (2009 апрель 23)
+--------------------------
+Dune_String_Factory !NEW! Фабрика объектов для работы со строками.
+Dune_String_Interface_Container !NEW! Интерфейс для классов-контейнеров.
+Dune_String_ContainerMB !NEW! Класс-контейнер для обработки mb-строк.
+Dune_String_Functions
+      * Внедрил использование объектов-контейнеров повсеместно.
+
+0.123.02 (2009 апрель 22)
+--------------------------
+Dune_Mysqli_Abstract_SetDataControl
+      * Откорректирована установка данных времени.
+
+0.123.01 (2009 апрель 21)
+--------------------------
+Dune_Parsing_Parent_Url
+      * Возможно отбирать часть комманды при нумерации от конца.
+
+0.123.00 (2009 апрель 20)
+--------------------------
+Dune_Mysqli_Collector_Order !NEW! Коллектор условий в ORDER для запросов в BD.
+
+0.122.05 (2009 апрель 17)
+--------------------------
+Dune_Display_BreadCrumb
+    * Синглетон теперь псевдо.
+Dune_Mysqli_Table
+    * Новый метод useKey($key, $value)
+
+0.122.04 (2009 апрель 16)
+--------------------------
+Dune_Mysqli_Collector_Where
+     *  В методе get() контроль выдачи строки.
+     *  Ошибка фильтрации данных в мтоде addSimpleData()
+Dune_Mysqli_Table
+     * Добавлены методы: getData(), delete(), add(), save(). Нет комментариев.
+Dune_String_Functions
+     * Ошибка в методе sub()
+Dune_Mysqli_Abstract_SetDataControl
+    * Ошибка в работе с данными времени.
+    * Метод __set()
+
+
+0.122.03 (2009 апрель 15)
+--------------------------
+Dune_Directory_Delete
+     * Удаление старых файлов в папке. Удаление пустых папок.
+
+0.122.02 (2009 апрель 13)
+--------------------------
+Dune_String_Functions
+      * Методы pos(), posr(), str(), stri(), sub()
+Dune_String_Container
+      *  Названия сетодлв: rpos -> posr, istr -> stri.
+Dune_Filter_Post_Total
+      * Введено использование функций со токами из класса Dune_String_Functions.
+
+0.122.01 (2009 апрель 10)
+--------------------------
+Dune_Mysqli_Collector_Where 
+       * Котроль ввода соединений для условий AND, OR.  Альфа.
+Dune_String_Functions
+      * Рабоатет метод len()
+
+0.122.00 (2009 апрель 08)
+--------------------------
+Dune_Mysqli_Abstract_Connect  !NEW! Абстрактный класс. Реализует создание объекта mysqli.
+Dune_Mysqli_Collector_Where  !NEW! Собиратель строки - части запроса where.
+
+0.121.00 (2009 апрель 07)
+--------------------------
+Dune_Zend_Json  !NEW!
+Dune_Zend_Json_Decoder  !NEW!
+Dune_Zend_Json_Encoder  !NEW!
+Dune_Exception_Zend  !NEW!
+    * Переписаный Zend_Json для работы отдельно от Zend. Изменены названия.
+
+0.120.00 (2009 апрель 03)
+--------------------------
+Dune_View !NEW!
+    * Альтернатива Zend_View. Облегченный и подстроенный под мои нужды.
+
+
+0.119.02 (2009 март 26)
+--------------------------
+Dune_Session
+   * Метов возврата имени зоны сессии.
+
+0.119.01 (2009 март 14)
+--------------------------
+Dune_Mysqli_Iterator_Parent_Result
+    * Реализована поддержка сериализации и десериализации результатов.
+Dune_Array_Container
+   * По умолчанию NULL.
+Dune_Static_StylesList
+   * Добавлен метод сброса накопленных файлов.
+
+0.119.00 (2009 февраль 24)
+--------------------------
+Dune_Directory_Copy !NEW!
+    * Копирование директории и всего содержимого.
+
+0.118.08 (2009 февраль 18)
+--------------------------
+Dune_Session
+  * Внедрен метод установки идентификатора сессии.
+
+0.118.07 (2009 февраль 13)
+--------------------------
+Dune_Parsing_Parent_Url
+ * Новый метод clearModifications() - сброс модифицированной команды до изначально.
+ * Реализация интерфейса Countable - коллечкство комманд в строке.
+
+0.118.06 (2009 февраль 07)
+--------------------------
+Dune_Zend_View
+   * Постение цепочек из методов assign
+Dune_Data_Parsing_Date
+   * Возврат года 2 и 4 символов.
+Dune_String_Transform
+   * Метол замены переводов строк на brake
+
+0.118.05 (2009 февраль 03)
+--------------------------
+Dune_Zend_Cache
+   * Ошибка сохранения кеша при отсутствии тегов.
+
+0.118.04 (2009 январь 30)
+--------------------------
+Dune_Data_Container_Folder
+ * Доработано ввод параметров.
+Dune_Include_Abstract_Code
+  * Для set-методов реализована возможность построения "цепочек";
+
+
+0.118.03 (2009 январь 29)
+--------------------------
+Dune_Data_Container_Command
+Dune_Data_Container_Folder
+Dune_Data_Container_ValueAllow
+  * Для set-методов реализована возможность построения "цепочек";
+
+0.118.02 (2009 январь 26)
+--------------------------
+Dune_AsArray_File_String.
+  * Реализован итератор. Перебор файлов в папке.
+  * Ошибка уничтожения файла.
+
+0.118.01 (2009 январь 23)
+--------------------------
+Dune_Filter_Post_Total
+Dune_Image_Proportion
+Dune_Image_Transform
+Dune_String_Transform
+Dune_Include_Parent_Command
+Dune_Display_BreadCrumb
+Dune_Display_Rss
+Dune_Navigate_Page
+Dune_Check_Post_Keys
+  * Для set-методов реализована возможность построения "цепочек";
+
+
+0.118.00 (2009 январь 22)
+--------------------------
+Dune_String_Explode
+  * Исправлена ошибка принятия 0(нуля) за отсутствие значения.
+Dune_Mysqli_Abstract_Mysqli
+  * Добавлен магический метод __toString() - печать последней строки запроса.
+Dune_AsArray_File_String !NEW! Ограниченно рабочая.
+  * Начальная версия. Прошло ограниченное тестирование.
+  * Итератор не реализован.
+Dune_Date_MonthName !NEW!
+  * Формирование названия месяца от его порядкового номера.
+
+
+0.117.03 (2009 январь 21)
+--------------------------
+Dune_String_Explode
+  * Добавлена реализация интерфейса Countable.
+
+0.117.02 (2009 январь 20)
+--------------------------
+Dune_Parameters. 
+  * Новая переменная $libDynamicFolder. Имя папки для динамического дерева библиотек.
+Dune_Mysqli_Abstract_Mysqli
+  * Сохраняет и позволяет получить строку последнего запроса. Метод getQuery().
+  * Новый плейсхолдер: обработанная часть запроса. ?p
+
+0.117.01 (2009 январь 16)
+--------------------------
+Dune_Filter_Post_Total. Добавлена возможность обработки многомерного массива $_POST.
+
+0.117.00 (2009 январь 15)
+--------------------------
+Dune_String_Transform. !NEW!  Набор методов для преобразования строки.
+Dune_Data_Collector_Abstract_ArrayAllow. 
+ *  Есть опциональная возможность устанавливать массив значениями по умолчанию.
+ *  При отсутствии значения по умолчанию в массиве $allowFields устанавливается в null.
+
+
+0.116.00 (2009 январь 12)
+--------------------------
+Dune_Loader. !NEW! Аналог Zend_Loader оптимизированный для загрузки классов.
+
+0.115.00 (2008 декабрь 27)
+--------------------------
+Dune_Data_Collector_Abstract_ArrayAllow. !NEW! Установка значений массива согласно фильтру и разрешенным полям.
+Dune_Array_Abstract_Interface. !NEW! Реализация интерфейсов для превращения класса в массив. Абстрактный.
+
+0.114.00 (2008 декабрь 26)
+--------------------------
+ Dune_Filter_Post_Total. Ноый метод setResultCharset($charset) включает перекодровку при доступе данных в масиве $_POST. Любую кодировку в win-1251.
+ Dune_String_Charset_Convert. !NEW! Конвертирует строку из кодировки в нужную. Пока только в win-1251. Это упакованый в класс ряд функций Yuri Popoff.
+ Dune_Zend_View. Добавлена возможность блокировать передаваемые переменные для повтрной инициилизации.
+
+0.113.05 (2008 декабрь 25)
+--------------------------
+ Dune_Filter_Post_Total. Ноый метод setIconv($in_charset, $out_charset) включает перекодровку при доступе данных в масиве $_POST.
+
+0.113.04 (2008 декабрь 24)
+--------------------------
+Dune_Array_Container. Ошибка итератора - остановка при значении null исправлена.
+Dune_Auth_Mysqli_UserTime. Вариант класса из синглетона зависит от полученного id.
+Dune_Time_IntervalParse. !NEW! Разбор значения временного интервала с выделением временных единиц.
+
+
+0.113.03 (2008 декабрь 18)
+--------------------------
+Dune_Include_Parent_Command. Исправлена ошибка. Странно что раньше работало.
+
+0.113.02 (2008 декабрь 16)
+--------------------------
+Dune_Static_Message. Новые методы инициилизации переменных сообщения.
+Dune_Parameters. Новая переменная $useClassToAssign. Включение создания объекта прединициилизации.
+Dune_Zend_View. Добавлена автоиниц. переменных вида при создании объекта. Используется класс-модуль, укзанный в переменной $classToAssign. Включение по переменной  Dune_Parameters::$useClassToAssign.
+
+0.113.01 (2008 декабрь 09)
+--------------------------
+Dune_Session. новый метод clearZone(). Присвоение области сессии пустого массива. Аналог killZone().
+
+0.113.00 (2008 декабрь 05)
+--------------------------
+Dune_Directory_Delete. При удалении проверка на существование папки.
+Dune_Image_Info. Отсечение имени файла правильно (имя может содержать точки).
+Dune_Include_Abstract_Code. !!! ВАЖНО !!! Установка результатов через метод. Установку через переменную тоже работвет, но приоритет за новым методом.
+Dune_Include_Parent_Command. !!! ВАЖНО !!! Доступ к массиву результатов и переменной статуса через методы.
+Dune_Parsing_Parent_Url. Глупая ошибка.
+Dune_Session. 
+ * Добавлен метод getInt() - возврат числа типа integer. Удаляет пробелы.
+ * Добавлена реализация интерфейса Countable. Колличество элементов в зоне.
+Dune_Include_Command. Использование новой схемы доступа к главным переменнфм класса.
+
+0.112.01 (2008 декабрь 04)
+--------------------------
+Dune_Parsing_Parent_Url.  Добавление метода getCommandPart(). Выборка части комманды.
+Dune_String_CutShort. Анализ строки на обрубание слов через массив $_spaces - т.е. все только пробельные символы.
+Dune_String_Explode. Добавлен метод getResultArray() возврат всего маассива.
+Dune_Mysqli_Abstract_Mysqli. Ошибка с новым плейсхолдером s устранена.
+
+0.112.00 (2008 декабрь 03)
+--------------------------
+Dune_Parsing_Parent_Url. 
+ * Добавление метода getCommandString() для возврата модифицированной строки команд.
+ * Добавление метода setCommand() для модификации последовательности.
+ * Добавление метода cutCommands() сокращенеи численности комманд.
+ * Модифицируется специальная версия массива команд. Оригинальный массив остается неизменным.
+ * Добавление метода loadCommandsFromClass() Загрузка массива комманд из системного класса-контейнера.
+Dune_Data_Container_Command
+ *  Предает в методе check() действительную команду конейтеру Dune_Data_Collector_Commands.
+Dune_Data_Container_Folder
+ *  Предает в методе check() действительную команду конейтеру Dune_Data_Collector_Commands.
+Dune_Data_Collector_Commands. !NEW! Составитель массива задействованных команд.
+
+0.111.07 (2008 декабрь 03)
+--------------------------
+Dune_Mysqli_Abstract_Mysqli. Новый плейсхолдер ?s, что символизирует данные, подвергаемые сериализации, и вставлямые как строки.
+
+0.111.06 (2008 декабрь 02)
+--------------------------
+Dune_Filter_Post_Total. Специальная обработка значений элементоа массива $_POST при доступах ArrayAccess,Iterator
+		        Реализация интерфейса Countable.
+
+0.111.05 (2008 ноябрь 29)
+--------------------------
+У всех классах доработка: Для картинки источника типа gif используется для изменения функция imagecopyresized()
+	Dune_Image_Proportion
+	Dune_Image_Transform
+	Dune_Image_Thumbnail
+
+
+0.111.04 (2008 ноябрь 27)
+--------------------------
+Dune_Parameters. Новая переменная $timeSetVisit
+Dune_Auth_Mysqli_UserTime. Новое поле в базе.
+
+0.111.03 (2008 ноябрь 18)
+--------------------------
+Dune_Static_JavaScriptsList. Добавлена возможность добавления зависимых файлов. Файлы фреймворков, которые нужны только при наличии кода их использующего.
+
+0.111.02 (2008 ноябрь 13)
+--------------------------
+Dune_Mysqli_Iterator_Parent_Result. Реализован интрефейс Countable
+Dune_Mysqli_Abstract_Mysqli. Новый метод  makeSubstitution() подстановка и возврат плейсхолдеров без запроса.
+Dune_Zend_Loader. Добавление корневых папок в список влючения при их добавлениее методом assignDir().
+
+0.111.01 (2008 ноябрь 12)
+--------------------------
+Dune_Cookie_ArraySingleton. Добавлены магические методы __isset() и __unset().
+
+0.111.00 (2008 ноябрь 11)
+--------------------------
+Dune_Zend_Loader. !NEW! Наследник класса Zend_Loader. Рабочая версия. Комментарии надо добавить позже.
+
+0.110.00 (2008 ноябрь 10)
+--------------------------
+Dune_Include_Abstract_Code. !NEW! Абстрактный класс-родитель для классов-заменителей старой модульной системы.
+Dune_Parameters. Добавлена переменная. Хранить имя текущей папки классов сайта.
+Dune_Cookie_ArraySingleton. Устранение ошибки при уничтожении пирога.
+
+0.109.00 (2008 ноябрь 07)
+--------------------------
+Dune_Auth_Mysqli_UserCount !NEW! Интерфейсный класс к таблице в БД коллличественных меток пользователя.
+Dune_Filter_Post_Total. Добавлена пакетная обработка параметров из массива функцией htmlspecialchars()
+Доработаны тестовые версии:
+    Dune_Auth_Mysqli_UserActive
+    Dune_Auth_Mysqli_UserTemp
+    Dune_Auth_Mysqli_UserTime
+Dune_Mysqli_Check. Не используется стандартный подготовленный запрос. Не везде корректно работает.
+
+0.108.00 (2008 ноябрь 06)
+--------------------------
+Dune_Form_Handle_CheckBox. !NEW! Обработка данных с формы. Дорабатывается. Рабочая версия.
+Dune_Mysqli_Abstract_SetDataControl. !NEW! Обработка данных для сохрания строки после SET в запрое к БД.
+Dune_Auth_Mysqli_UserActive. Доработан.
+
+0.107.02 (2008 ноябрь 06)
+--------------------------
+Dune_Zend_Config_Ini. Доработан механизм переключения секций.
+Dune_Parameters. Убрана инициилизация переменных (параметры БД и доменов) из метода start().
+
+0.107.01 (2008 ноябрь 05)
+--------------------------
+Dune_Session. Добавлены магич. методы __isset и __unset.
+Dune_Array_Container.  Релизован интерфейс Countable.
+
+0.107.00 (2008 ноябрь 05)
+--------------------------
+Dune_Zend_Config_Ini. !NEW! Дочерний класс от Zend_Config_Ini. Добавляет синглетон.
+
+0.106.01 (2008 октябрь 29)
+--------------------------
+Dune_Array_Container. При создании объекта проверка входных данных в стиле : а массив ли дали. В послед. версиях убрано.
+
+0.106.00 (2008 октябрь 28)
+--------------------------
+Dune_Auth_Mysqli_UserTime. !NEW! Работа с временными параметрами пользоватедя. Альфа версия. Не тестирвано. Не комментирвано.
+Dune_Variables. Добавлена статическая переменная $pathToViewFolder - путь к папке файлов текущего вида.
+
+0.105.00 (2008 октябрь 27)
+--------------------------
+Dune_Directory_Make. !NEW! Рекурсивное создание директории.
+
+0.104.03 (2008 октябрь 26)
+--------------------------
+Dune_Image_Thumbnail. Добавлена возможность сохранять файл с именем 0. (Ранее была проверка !$name)
+Dune_Image_Proportion. Добавлена возможность сохранять файл с именем 0. (Ранее была проверка !$name)
+Dune_Image_Info. Устранена ошибка получения имени файла для php < 5.2
+Dune_Image_Info. Устранена ошибка получения разрешения файла с точкой и без.
+
+
+0.104.02 (2008 октябрь 24)
+--------------------------
+Для пущей стабильности изменено имя массива - хранителя параметров в класах:
+    Dune_Data_Container_Folder
+    Dune_Include_Folder
+    Dune_Include_Parent_Command
+    Dune_Include_Module
+    Dune_Include_Command
+    Dune_Include_Operation
+Dune_Display_BreadCrumb. Не выводится ссылка под последней крошкой, даже если была установлена.
+Dune_Filter_Post_Total. Добавлен метод __toString. Тестовая печать массива $_POST.
+
+0.104.01 (2008 октябрь 23)
+--------------------------
+Dune_String_Explode. Добавлен метод getInteger() для доступа к ключам разбитого массива.
+                                     Добавлена возможность менять начало отсчета ключей массива.
+Dune_Data_Container_Folder. Добавлены магические методы для доступа к параметрам (массив $this->parameters). _set() и _get() 
+Dune_Mysqli_Abstract_Mysqli. Подправлены комментарии.
+
+0.104.00 (2008 октябрь 22)
+--------------------------
+Dune_String_CutShort. !NEW! Обрезка строки для превью. Бета версия. (0.90)
+Dune_Image_Preview_One !NEW! Работа с превью одной картинки. Используется в итераторе. Бета версия 0.93.
+Dune_Session. Новый метод getFloat() - возврат числа типа float. Удаляет пробелы, заменяет запятые на точки.
+Dune_Data_Collector_Abstract_Url. Добавлен метод getExeptLastFolder($count = 1) выбрать строку запроса без указаного числа последних каманд (папок)
+Dune_Data_Container_Command. (!!) Принципиальная доработка. Введение использования псевдонимов для комманд.
+Dune_Include_Command (!!)  Принципиальная доработка. Использованеи псевдонимов папок. Переработана схема подключения админ части !!!.
+Dune_Filter_Post_Total. Пара методов. Применение trim ко всему массиву спец методом.
+Dune_Form_Select. Только внутреннее.
+Исключения:
+    Dune_Exception_Control_Goto
+    Dune_Exception_Control
+
+
+
+0.103.01 (2008 октябрь 09)
+--------------------------
+Dune_String_Explode. раелизован итератор.
+Dune_Session. Блокирование зоны с ключем.
+
+0.103.00 (2008 октябрь 08)
+--------------------------
+Dune_Zend_Captcha_Image !NEW! Наследник класса из Zend. Не использует класс работы с сессией из Zend.
+Dune_Session. Ключевая доработка! Установка зоны во вермя вызова синглетона. Смена параметров метода синглетона.
+Dune_Parameters. Переменные для Dune_Zend_Captcha_Image.
+
+0.102.01 (2008 октябрь 07)
+--------------------------
+Dune_Data_Collector_Abstract_Url. Усовершенствование. Добавлен метод getFolder() - выбрать папку(команду). Текущую, либо с номером.
+
+
+0.102.00 (2008 октябрь 07)
+--------------------------
+Dune_Data_Collector_Abstract_Url. !NEW! Родительский для классов сборщиков строки запрса.
+Dune_Data_Collector_UrlSingleton. !NEW! Синглетон сборщик запросов. Сохраняет текущий.
+Dune_Data_Collector_Url. Функционал вынесен в родитель.
+Dune_Mysqli_Abstract_Mysqli. Ошибка вызова исключения устранена..
+
+
+0.101.03 (2008 октябрь 05)
+--------------------------
+Dune_Include_Parent_Command. Добавлен магический метод __tostring() вывод на печать результата.
+Dune_Include_Module. Добавлен магический метод __tostring() вывод на печать результата.
+
+0.101.02 (2008 октябрь 04)
+--------------------------
+Dune_Include_Parent_Command. В методе make() - сохранение всего вывода из подключаемого кода.
+Dune_Include_Module. Вывод подключаемого модуля сохраняется и доступен методом getOutput и getResult при отсутствии передаваемого параметра.
+Dune_Include_Operation
+Dune_Include_SubCommand
+Dune_Include_Folder. Вывод подключаемого модуля сохраняется и доступен методом getOutput и getResult при отсутствии передаваемого параметра.
+
+0.101.01 (2008 октябрь 03)
+---------------------------
+Dune_Variables. Добавлен статич. метод выборки заголовков страницы из ini-файла.
+Dune_Static_StylesList. Возможноть менять порядок объявления подключаемых файлов css.
+Dune_Parsing_Parent_Url. Добавлен итератор команд (папок).
+Dune_Include_Command. Весь вывод из комманды сохраняется в переменой. (ob_start, ob_get_content)
+Dune_Include_Parent_Command. Статус по умолчанию - вывод страницы.
+		             Добавлен метод getOutput() - выборка всего что вышло из комманды.
+
+0.101.00 (2008 октябрь 01)
+---------------------------
+Dune_Mysqli_Collector_Set. !NEW! Конструктор части запроса.
+Dune_Data_Container_Command. !!! Принципиальная доработка.
+
+0.100.00 (2008 сентябрь 30)
+---------------------------
+Dune_parameters. Добавлен статичесикий метод проверки аякс запроса.
+
+Новый формат нумераци версий
+
+0.093 -> 0.094 (2008 сентябрь 29)
+---------------------------------
+Поддержка устаревших методов:
+!NEW! Dune_Mysql_Iterator_Parent_Result
+!NEW! Dune_Mysql_Iterator_ResultAssoc
+!NEW! Dune_Mysql_Iterator_ResultCol
+!NEW! Dune_Mysql_Iterator_ResultRow
+Dune_Static_Header. Добавлен метод.
+
+
+
+0.092 -> 0.093 (2008 сентябрь 28)
+---------------------------------
+1) Dune_MysqliSystem. Добавление функционала.
+2) Dune_Mysqli. Добавление функционала.
+!NEW! Dune_Mysqli_Abstract_Mysqli
+!NEW! Dune_Mysqli_Iterator_Parent_Result
+!NEW! Dune_Mysqli_Iterator_ResultAssoc
+!NEW! Dune_Mysqli_Iterator_ResultCol
+!NEW! Dune_Mysqli_Iterator_ResultRow
+
+
+0.091 -> 0.092 (2008 сентябрь 26)
+----------------
+1) Dune_String_Referer. Новый класс.
+2) Dune_Filter_Post_Total. Доработан (1.04)
+3) Dune_String_Explode. Доработан (1.01)
+
+
+0.090 -> 0.091 (2008 сентябрь 23)
+----------------
+1) Dune_Image_Preview. Доработан до версии 0.93.
+2) Dune_Navigate_Page. !!!! Изменены параметры для конструктора.
+3) Dune_String_Explode. Новый класс. Обёртка к функции explode().
+4) Dune_Text_Functions. Новый абстрактный класс. репозитрий функций для работы с текстом.
+
+
+0.089 -> 0.090 (2008 сентябрь 18)
+----------------
+1) Dune_Data_Collector_Url. Доработка.
+
+0.088 -> 0.089 (2008 сентябрь 14)
+----------------
+1) Dune_Directory_Delete. Новый класс.
+2) Dune_Image_Preview. Новый класс - разрабатывается.
+
+0.087 -> 0.088 (2008 сентябрь 10)
+----------------
+1) Dune_Form_Form. Изменения.
+2) Dune_Upload_FileMulti. Новый Класс для анализа пакета-массива с загруженными файлами.
+
+
+0.086 -> 0.087 (2008 сентябрь 5)
+----------------
+1) Dune_Image_Proportion. Изменения. Класс может быть родителем.
+2) Dune_Image_Transform. !!! Новый класс. Комплексное изменение картинки.
+3) Dune_Static_Header. !! Новый абстрактный класс.
+
+0.085 -> 0.086 (2008 сентябрь 3)
+----------------
+1) Dune_Session. Дополнение.
+2) Dune_Image_Proportion. Новый класс.
+
+0.084 -> 0.085 (2008 сентябрь 1)
+----------------
+1) Dune_Session. Доработка.
+
+0.083 -> 0.084 (2008 август 29)
+----------------
+1) Dune_Db_Collector_SetFromPost. Новый класс
+2) Dune_Session. Дополнение.
+3) Dune_Filter_Post_Total. Изменения.
+4) Dune_Filter_Get_Total. Изменения.
+
+0.082 -> 0.083
+----------------
+1) Dune_Cookie_ArraySingleton . Изменения. (вер. 1.05, 28 август 2008)
+2) Dune_Session. Изменения. (вер. 1.00, 28 август 2008)
+3) Dune_Array_Container. Новый класс. (29 август 2008)
+
+0.081 -> 0.082
+----------------
+1) Dune_Filter_Post_Total. Изменения. (ver.1.01)
+2) Dune_Filter_Get_ValueAllow. Новй класс.
+3) Dune_Data_Collector_PostArrayAllow. Новый класс.
+
+
+0.080 -> 0.081
+----------------
+1) Dune_Display_BreadCrumb. Новый класс.
+2) Dune_Filter_Post_Total. Новый класс.
+
+0.079 -> 0.080
+----------------
+1) Dune_Data_Container_ValueAllow. Новый класс.
+2) Dune_Include_Parent_Command. Изменения.
+3) Dune_Parsing_Parent_Url. изменение.
+
+0.078 -> 0.079
+----------------
+1) Dune_Parsing_Parent_Url. (до версии 1.01) Изменения.
+2) Dune_Data_Container_Command. !!!!!! Важные системные изменения. В результате смены метода обработки URL.
+
+
+0.077 -> 0.078
+----------------
+1) Dune_Parsing_Parent_Url. Новый абстрактный класс.
+2) Dune_Parsing_Url. Новый класс. Наследует 1-му.
+3) Dune_Parsing_UrlSingleton. Новый класс. Наследует 1-му.
+
+0.076 -> 0.077
+----------------
+1) Dune_Data_Collector_Url (Версия 0.90). Новый класс.
+2) Dune_Parameters. Версия 1.05. Новые переменные.
+
+0.075 -> 0.076
+----------------
+1) Dune_Static_JavaScriptsList (до версии 1.03). Устранена ошибка. Важные изменения.
+2) Dune_Array_IsSet (до версии 1.02). Изменения в функциях.
+3) Dune_Test_Array. Новый класс.
+3) Dune_Static_StylesList (до версии 1.02). Изменения, важные
+
+0.074 -> 0.075
+----------------
+1) Dune_Include_Parent_Command.  Изменения.
+2) Dune_Include_Command. !!! Важные изменения. Возможна перенастройка ранее созданных команд.
+3) Dune_Include_Folder. !!! Важные изменения. Возможна перенастройка ранее созданных команд.
+4) Dune_Include_Operation. Изменения.
+5) Dune_Zend_View. Добавлена установка пути к помощникам из синглетона.
+
+0.073 -> 0.074
+----------------
+1) Dune_Zend_View. Новый класс.
+2) Dune_Include_Operation. Новый класс.
+
+0.072 -> 0.073
+----------------
+1) Dune_Directory_List. Новый класс.
+
+0.071 -> 0.072
+----------------
+1) Dune_AsArray_DbmSingletonSystem. Новый класс.
+2) Dune_Filter_Post_HtmlSpecialChars. Новый класс.
+3) Dune_Parameters. Добавлена переменная.
+
+0.070 -> 0.071
+----------------
+1) Dune_Static_JavaScriptsList. Изменения.
+2) Dune_Zend_Cache. Изменения.
+3) Dune_Filter_Parent_RequestFormatGet. Изменения.
+4) Dune_Filter_Parent_RequestFormatPost. Изменения.
+
+0.069 -> 0.070
+----------------
+1) Dune_Parsing_Date. Новый класс. Бета версия.
+2) Dune_Filter_Post_Digit. Новый класс.
+3) Dune_Filter_Post_HtmlSpecialChars. Новый класс.
+
+0.068 -> 0.069
+----------------
+1) Dune_Array_IsSet. Новый класс.
+2) Dune_Zend_Cache. Добавлен метод.
+
+0.067 -> 0.068
+----------------
+1) Dune_Variables. изменения, значительные.
+
+0.066 -> 0.067
+----------------
+1) Dune_Data_Typograf. Новый класс.
+2) Dune_Parameters. Новые переменные
+
+0.065 -> 0.066
+----------------
+1) Dune_Include_Command. Изменение.
+2) Dune_Include_SubCommand. Изменение.
+3) Dune_Include_Folder. Изменение.
+4) Dune_Include_Parent_Command. Новый абстрактный класс.
+5) Dune_Upload_File. Дополнение.
+
+0.064 -> 0.065
+----------------
+1) Dune_Display_Rss. Дополнение.
+
+0.063 -> 0.064
+----------------
+1) Dune_Filter_Parent_RequestFormatPost. Дополнение.
+
+0.062 -> 0.063
+----------------
+1) Dune_System. Принципиальное изменение.
+!!!!  Были внесны поправки во все класы, использующие Dune_System.
+2) Dune_Build_TemplateSystem. Исправление.
+
+
+0.061 -> 0.062
+----------------
+1) Dune_Auth_MailMysqli. Устранение ошибок.
+2) Dune_Build_TemplateSystem. Кардинальное изменение.
+
+0.060 -> 0.061
+----------------
+1) Dune_Static_Generate. Новый класс.
+2) Dune_Auth_MailMysqli. Дополнение.
+
+0.059 -> 0.060
+----------------
+1) Dune_Display_Rss. Устранение ошибок.
+2) Dune_Auth_MailMysqli. Дополнение.
+3) Dune_Build_TemplateSystem. Оптимизация.
+
+0.058 -> 0.059
+----------------
+1) Dune_Display_Rss. Новый класс.
+
+0.057 -> 0.058
+----------------
+1) Dune_Include_Command. Изменения.
+2) Dune_Include_SubCommand. Изменения.
+3) Dune_Data_Container_Folder. Новый класс.
+4) Dune_Include_Folder. Новый класс.
+5) Dune_Filter_Parent_RequestFormatGet. Новый абстрактный класс.
+6) Dune_Filter_Get_NoFilter. Новый класс.
+7) Dune_Filter_Get_UrlCommand. Новый класс.
+8) Dune_Parameters. Дополнение.
+9) Dune_Filter_Parent_RequestFormatPost. Новый абстрактный класс.
+10) Dune_Filter_Post_NoFilter. Новый класс.
+
+
+0.056 -> 0.057
+----------------
+1) Dune_Captcha_MultiWave. Изменения.
+2) Dune_Captcha_TwoColors. Новый класс.
+3) Dune_Captcha_Parent_Base. Новый абстрактный класс.
+
+0.055 -> 0.056
+----------------
+1) Dune_Static_StylesList. Изменения.
+2) Dune_Static_JavaScriptsList. Изменения.
+3) Dune_Captcha_MultiWave. Новый класс.
+
+0.054 -> 0.055
+----------------
+1) Dune_Image_Info. Изменения.
+2) Dune_Build_TemplateSystem. Новый класс.
+3) Dune_Build_StylesSystem. Новый класс.
+4) Dune_Parameters. Дополнение.
+
+0.053 -> 0.054
+----------------
+1) Dune_Build_Styles. Дополнение.
+
+0.052 -> 0.053
+----------------
+1) Dune_Data_Container_SubCommand. Смена структуры подключаемых файлов комманд.
+2) Dune_Include_SubCommand. Изменения.
+
+0.051 -> 0.052
+----------------
+1) Dune_Display_Div. Изменение.
+2) Dune_Display_Ul. Новый класс.
+3) Dune_Display_Paragraph. Новый класс.
+4) Dune_Parameters. Добавление.
+
+0.050 -> 0.051
+----------------
+1) Dune_Display_Table. Новый класс.
+2) Dune_Static_JavaScriptsList. Новый класс.
+3) Dune_Display_Div. Устранение ошибки.
+
+0.049 -> 0.050
+----------------
+1) Dune_Filter_Request_Format_Digit. Новый класс.
+2) Dune_Filter_Request_Format_NoFilter. Новый класс.
+3) Dune_Filter_Parent_RequestFormat. Устранение ошибки.
+
+0.048 -> 0.049
+----------------
+1) Dune_Filter_Request_Format_HtmlSpecialChars. Новый класс.
+2) Dune_Filter_Request_Format_UserName. Новый класс.
+3) Dune_Filter_Parent_RequestFormat. Новый абстрактный класс.
+4) Dune_Parameters. Добавление.
+
+0.047 -> 0.048
+----------------
+1) Dune_Display_Div. Новый класс.
+2) Dune_Static_StylesList. Новый абстрактный класс.
+3) Dune_Form_Select. Новый класс.
+
+0.046 -> 0.047
+----------------
+1) Dune_Form_Form. Новый класс.
+2) Dune_Form_InputCheckBox. Новый класс.
+3) Dune_Form_InputFile. Новый класс.
+4) Dune_Form_InputHidden. Новый класс.
+5) Dune_Form_InputPassword. Новый класс.
+6) Dune_Form_InputRadio. Новый класс.
+7) Dune_Form_InputSubmit. Новый класс.
+8) Dune_Form_InputText. Новый класс.
+9) Dune_Form_TextArea. Новый класс.
+
+0.045 -> 0.046
+----------------
+1) Dune_Data_Container_SubCommand. Новый класс.
+2) Dune_Include_SubCommand. Новый класс.
+3) Dune_Static_Alloy. Новый абстрактный класс.
+4) Dune_Parameters. Новый параметр.
+
+0.044 -> 0.045
+----------------
+1) Dune_Parameters. Изменения.
+
+0.043 -> 0.044
+----------------
+1) Dune_Variables. Изменения.
+2) Dune_Data_Container_Command. Изменения.
+3) Dune_Include_Command. Изменения.
+4) Dune_Build_Template. Дополнение.
+5) Dune_Objects. Дополнение.
+6) Dune_Parameters. Дополнение.
+7) Dune_Zend_Cache. Изменения.
+
+0.042 -> 0.043
+----------------
+1) Dune_Auth_MailMysqli. Изменения.
+
+0.041 -> 0.042
+----------------
+1) Dune_Data_Container_Command. Изменения.
+2) Dune_Include_Command. Изменения.
+
+0.040 -> 0.041
+----------------
+1) Dune_Auth_MailMysqli. Изменения.
+2) Dune_Data_Container_UserFriendlyUrl. Новый класс.
+
+0.039 -> 0.040
+----------------
+1) Dune_Data_Container_Command. Новый класс.
+2) Dune_Include_Command. Новый класс.
+3) Dune_Variables. Новый класс.
+
+
+0.038 -> 0.039
+----------------
+1) Dune_Include_Module. Устранение ошибок.
+2) Dune_Static_Message. Новый абстрактный класс.
+3) Dune_Parameters. Добавлена переменная.
+
+0.037 -> 0.038
+----------------
+1) Dune_Include_Module. изменения.
+2) Dune_Parameters. Добавлена переменная.
+
+0.036 -> 0.037
+----------------
+1) Dune_Session. изменения.
+2) Dune_Include_Module. Новый класс.
+3) Dune_Auth_MailMysqli. Исправление ошибки.
+4) Dune_Cookie_ArraySingleton. изменения.
+
+0.035 -> 0.036
+----------------
+1) Dune_Session. Новый класс.
+2) Dune_Auth_MailMysqli. Доработка.
+3) Dune_Voting_Simple -> Dune_Voting_SimpleMysql. Переименовал.
+4) Dune_Template_Page. Удален.
+
+
+0.034 -> 0.035
+----------------
+1) Dune_Mysqli_Check. Устранение ошибок. Функционален.
+2) Dune_MysqliSystem. Устранение ошибок. Функционален.
+3) Dune_Auth_MailMysqli. Устранение ошибок. Функционален.
+
+0.033 -> 0.034
+----------------
+1) Dune_Auth. Новый класс.
+2) Dune_Auth_MailMysqli. Новый класс.
+
+0.032 -> 0.033
+----------------
+1) Dune_Encrypt_McryptCookie. Изменения.
+2) Dune_Encrypt_McryptSystem. Изменения.
+3) Dune_Cookie_ArraySingleton. Изменения.
+4) Dune_Parameters. Изменения.
+5) Dune_MysqliSystem. Изменения.
+
+0.031 -> 0.032
+----------------
+1) Dune_Image_Thumbnail. Новый класс.
+2) Dune_Parameters. Новый класс.
+3) Dune_Data_Format_Mail. Изменения.
+4) Dune_Build_Template. Новый класс. переименованый Dune_Template_Page.
+
+0.030 -> 0.031
+----------------
+1) Dune_Data_Zend_Cache. Новый класс.
+2) Dune_Zend_Cache. Новый класс.
+3) Dune_Image_Info. Новый класс.
+
+0.029 -> 0.030
+----------------
+1) Dune_Data_Container_CacheParameters. Новый класс.
+2) Dune_Mysqli_ListFromBase. Изменения.
+3) Dune_Static_Quotes. Новый класс.
+
+0.028 -> 0.029
+----------------
+1) Dune_Mysql_ListFromBase. Изменения.
+2) Dune_BeforePageOut. Изменения.
+
+0.027 -> 0.028
+----------------
+1) Dune_Template_Page. Изменения. Проведён тест.
+2) Dune_AsArray_Parent_Dbm. Изменения.
+3) Dune_AsArray_Dbm. Изменения.
+4) Dune_AsArray_DbmSingleton. Изменения.
+5) Dune_Build_Styles. Изменение.
+6) Dune_Data_Format_Url. Новй класс.
+7) Dune_Data_Format_Mail. Новый класс.
+8) Dune_Upload_File. Изменение.
+9) Dune_Data_Container_UserName. Новый класс.
+10) Dune_Mysqli_Check Новый статический класс. Репозиторий функций для работы с БД.
+
+0.026 -> 0.027
+----------------
+1) Dune_Template_Page. Новый класс.
+
+0.025 -> 0.026
+----------------
+1) Dune_BeforePageOut. Новый класс. Статический. Ключевой.
+2) Dune_Interface_BeforePageOut. Новый интерфейс. 
+3) Dune_Cookie_ArraySingleton. Изменение. В том числе название методов.
+4) Dune_Cookie_Array. Изменение. В том числе название методов.
+
+0.024 -> 0.025
+----------------
+1) Dune_Navigate_Menu_Out_List. Новый класс. 
+2) Dune_Time_IntervalSingleton. Изменение. 
+3) Dune_Data_Format_Phone. Новый класс.
+
+0.023 -> 0.024
+----------------
+1) Dune_AsArray_DbmSingleton. Изменение. 
+2) Dune_AsArray_Dbm. Изменение. 
+3) Dune_AsArray_Parent_Dbm. Новый класс. 
+
+
+0.022 -> 0.023
+----------------
+1) Добавлен класс Dune_Filter_RequestSingleton. Указатели на созданный класс хранятся в статичном массиве. Ключ для которго - строка из сцеплённых параметров, переданных методу getInstance.
+
+2) классы-синглетоны переведены на сохранение указателй на объекты в массиве.
+   Dune_AsArray_DbmSingleton - ключ - сцепление параметров
+   Dune_Cookie_ArraySingleton - ключ - имя пирога
+3) Изменения в классе Dune_Build_Styles - повышение универсальности.
+
+
+0.021 -> 0.022
+----------------
+1) Добавлен класс Dune_Cookie_Array.
+2) Добавлен класс Dune_Cookie_ArraySingleton.
+3) Введён общий родительский класс для классов работы с пирогами (наследуются настройки и методы проверки установки куки и метод вызова общего числа куки)
+
+0.020 -> 0.021
+----------------
+1) Добавлен класс Dune_Upload_File.
+2) Добавлен класс Dune_Cookie_Base.
+3) Добавлен класс Dune_Cookie_BaseSingleton.
+4) Добавлен класс Dune_Encrypt_McryptCookie.
+
+
+0.019 -> 0.020
+----------------
+1) Включено буферирование в классе Dune_Navigate_Page.
+
+
+0.018 -> 0.019
+----------------
+1) Добавлен класс Dune_Navigate_Page.
+2) Изменение названия класса Dune_AsArray_DbmSingle -> Dune_AsArray_DbmSingleton
+
+0.017 -> 0.018
+----------------
+1) Добавлен класс Dune_Time_Interval
+2) Добавлен класс Dune_Time_IntervalSingleton
+
+
+0.016 -> 0.017
+----------------
+1) Добавлены статические классы синхронного шифрования.
+   Dune_Encrypt_Mcrypt - ключ и настройки иниц. в классе
+   Dune_Encrypt_McryptSystem - ключ и настройки иниц. из системного файла
+   Необходима библиотека не ниже libmcrypt 2.4.x
+2) Добавлен класс Dune_Mysqli_ListFromBase - работа с одной таблицей в БД. Библиотека Mysqli.
+
+0.015 -> 0.016
+----------------
+Исправления в методе: Dune_Mysql_ListFromBase::getTotalNumberRows()
+

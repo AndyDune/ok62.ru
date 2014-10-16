@@ -1,0 +1,161 @@
+#house-info h1
+{
+text-align:center;
+}
+#house-info-add dl, #house-info-add dl dt, #house-info-add dl dd
+{
+padding: 0;
+margin: 0;
+}
+
+#house-info-add dl
+{
+margin: 30px auto 5px auto;
+}
+#house-info-add dl dt
+{
+text-align:center;
+font-weight:bold;
+padding: 5px 3px;
+}
+#house-info-add dl dd
+{
+text-align:center;
+font-weight:bold;
+margin: 0 auto;
+}
+
+
+.house-status, .house-name
+{
+font-weight:bold;
+font-size: 110%;
+}
+#house-info-details
+{
+margin: 0 auto;
+width: 450px;
+}
+
+#house-info-details tr td
+{
+background-color: #E3E3E3;
+padding: 4px;
+}
+
+.p-house-list-name
+{
+text-align:center;
+font-weight:bold;
+}
+.p-house-list-adress
+{
+text-align:left;
+font-weight:bold;
+}
+
+
+.table-house-in-list
+{
+border-top: #FCC80A solid 1px;
+width: 800px;
+border-spacing: 0;
+}
+.table-house-in-list tr td
+{
+vertical-align:top;
+}
+
+.div-house-list-count
+{
+padding: 0;
+margin: 0 0 0 0;
+}
+.div-house-list-count p
+{
+padding: 0;
+margin: 7px 0 0 0;
+}
+
+.div-house-list-count p a
+{
+font-weight:bold;
+}
+
+.div-house-list-info-add p
+{
+padding: 0;
+margin: 7px 0 0 0;
+font-weight:bold;
+}
+
+#object-info-grid table tr th
+{
+text-align:center;
+vertical-align:middle;
+}
+#object-info-grid table tr th span
+{
+white-space:nowrap;
+display:block;
+}
+
+#object-info-grid table
+{
+margin: 30px 0 0 0;
+border: 1px solid #333333;
+}
+
+#object-info-grid table tr th
+{
+border: 1px solid #333333;
+}
+
+
+#object-info-grid table tr td
+{
+border-collapse:separate;
+border: 1px solid #333333;
+width: 70px;
+height: 70px;
+}
+.room-active
+{
+background-color:#50B550;
+}
+.room-no-active
+{
+background-color:#CD4C4C;
+}
+
+#object-info-grid table tr td
+{
+text-align:center;
+vertical-align:middle;
+padding: 8px;
+}
+#object-info-grid table tr td span
+{
+white-space:nowrap;
+display:block;
+}
+#object-info-grid table tr td span.number
+{
+font-weight:bold;
+}
+
+#object-info-grid table tr th span strong.green
+{
+color:#50B550;
+}
+#object-info-grid table tr th span strong.red
+{
+color:#CD4C4C;
+}
+
+#object-info-grid table tr td.level-name
+{
+width: 100px;
+font-weight:bold;
+font-size:16px;
+}

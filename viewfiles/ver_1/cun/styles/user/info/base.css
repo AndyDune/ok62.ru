@@ -1,0 +1,101 @@
+#td-edit-panel-right
+{
+width: 300px;
+}
+/* CSS Document */
+#user-info-page
+{
+padding: 0 0 0 300px;
+min-height: 500px;
+}
+
+#user-info-page table
+{
+width: 100%;
+}
+#user-info-page table tr td
+{
+vertical-align:top;
+}
+
+#user-info-page h1
+{
+border-bottom: 2px solid #999999;
+font-size:18px;
+margin: 0 0 10px 0;
+}
+#user-info-page h2
+{
+font-size:16px;
+margin: 10px 0 2px 0;
+paddong:0;
+}
+
+#info-part
+{
+padding: 0 10px 10px 10px;
+position:relative;
+}
+
+#info-part .mach-info-text
+{
+width: 90%;
+height: 100px;
+}
+
+#info-part #user-info-photo
+{
+position:absolute;
+right: 0;
+top: 0px;
+width: 0px;
+text-align:center;
+padding: 0;
+margin: 0;
+}
+
+
+
+#info-part
+{
+}
+.prompting
+{
+width: 200px;
+}
+#user-main-info
+{
+position:relative;
+padding: 0 0 0 0px;
+}
+#user-main-info .user-pic, #user-main-info .user-pic-i
+{
+position:absolute;
+top: 10px;
+left:0;
+}
+#user-main-info .user-pic-i
+{
+top: 30px;
+left: 0;
+}
+
+#user-main-info .user-main-info-table
+{
+padding: 0 0 0 120px;
+}
+#user-main-info div .user-main-info-table table
+{
+width: 100%;
+}
+
+#user-main-info .user-main-info-table div table
+{
+width: 100%;
+}
+
+
+.td-shot
+{
+text-align:center;
+}

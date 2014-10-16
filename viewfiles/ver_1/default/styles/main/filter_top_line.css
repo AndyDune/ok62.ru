@@ -1,0 +1,226 @@
+#to-find-top-bottom
+{
+position:absolute;
+right: 25px;
+top: -40px;
+z-index: 101;
+cursor:pointer;
+}
+
+#header-filter
+{
+position:relative;
+height: 100px;
+padding: 0 0 0 0;
+margin: 10px 0 0 0;
+clear:both;
+z-index: 100;
+top: -15px;
+}
+
+#header-filter #total-add-list
+{
+padding: 0;
+margin: 0;
+}
+#header-filter #total-add-list li
+{
+padding: 0;
+margin: 0;
+height: 20px;
+}
+#header-filter #p-total-count
+{
+text-align:center;
+}
+#header-filter #p-total-count strong
+{
+display:block;
+}
+#select-bookmark option
+{
+}
+
+.header-filter
+{
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+zoom: 1;
+}
+
+.header-filter-cell
+{
+padding: 17px 7px 7px 7px;
+height: 50px;
+}
+.header-filter-cell h5
+{
+color:#FF0000;
+margin: 5px 0 3px 0;
+padding: 0;
+}
+.header-filter-cell ul
+{
+margin: 0;
+padding: 0;
+}
+
+ 
+.header-filter-cell select
+{
+width: 100%;
+}
+.header-filter-cell select .opt-not-main
+{
+padding: 0 0 0 20px;
+}
+
+.header-filter-cell select option strong
+{
+}
+
+.header-filter-cell select option.opt-main
+{
+display:block;
+background-color:#E8E8E8;
+font-weight:bold;
+}
+
+
+.bookmark-filter-main-content ul, .bookmark-filter-main-content p
+{
+margin: 0;
+padding: 0;
+}
+.ul-parameters
+{
+list-style-type:none;
+}
+.ul-parameters li input
+{
+line-height: 12px;
+vertical-align:baseline;
+margin:0;
+padding: 0;
+display:inline;
+overflow:hidden;
+}
+.ul-parameters li
+{
+vertical-align:baseline;
+line-height: 14px;
+margin: 0;
+padding: 0 0 2px 0;
+}
+
+.header-filter ul.ul-param-two-on-line
+{
+overflow:auto;
+overflow:hidden;
+width: 100%;
+}
+.header-filter ul.ul-param-two-on-line li
+{
+display:block;
+float:left;
+width: 45%;
+vertical-align:bottom;
+}
+
+
+.header-filter h4
+{
+text-align:center;
+margin: 0;
+padding: 0 0 3px 0;
+color: #929292;
+font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+font-size:11px;
+position:relative;
+}
+.header-filter h4 span
+{
+margin: 0 auto 0 auto;
+background-color:#E8E8E8;
+position:relative;
+padding: 0 5px 0 5px;
+top: 11px;
+}
+
+
+#header-filter .filter-border-1,
+#header-filter .filter-border-2,
+#header-filter .filter-border-3,
+#header-filter .filter-border-4,
+#header-filter .div-inline-inside,
+#header-filter .div-inline-4
+{
+height: 100%;
+}
+#header-filter .div-inline-inside
+{
+position:relative;
+}
+
+#header-filter .filter-border-1
+{
+background: url(_img/filter/l-1.png) no-repeat left top;
+z-index: 1;
+}
+
+#header-filter .filter-border-2
+{
+background: url(_img/filter/l-2.png) no-repeat left bottom;
+width: 100%;
+z-index: 2;
+}
+#header-filter .filter-border-3
+{
+background: url(_img/filter/r-1.png) no-repeat right top;
+width: 100%;
+z-index: 3;
+}
+#header-filter .filter-border-4
+{
+background: url(_img/filter/r-2.png) no-repeat right bottom;
+width: 100%;
+z-index: 4;
+}
+
+
+#header-filter .div-inline-4
+{
+display:inline;
+float:left;
+width: 25%;
+padding: 0;
+margin: 0;
+overflow:inherit;
+}
+#header-filter .div-inline-4-1
+{
+width: 23%;
+}
+
+#header-filter .div-inline-4-2
+{
+width: 23%;
+}
+#header-filter .div-inline-4-3
+{
+width: 23%;
+}
+#header-filter .div-inline-4-4
+{
+width: 30%;
+}
+
+/*
+*html .div-inline-4 { position: relative; left: -3px;}
+*/
+*html #header-filter .div-inline-4 {
+margin: 0 -3px; ma\rgin: 0;
+}

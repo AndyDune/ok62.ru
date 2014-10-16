@@ -1,0 +1,159 @@
+
+.filter-border-1
+{
+background: url(main/_img/filter/l-1.png) no-repeat left top;
+z-index: 1;
+}
+
+.filter-border-2
+{
+background: url(main/_img/filter/l-2.png) no-repeat left bottom;
+width: 100%;
+z-index: 2;
+}
+.filter-border-3
+{
+background: url(main/_img/filter/r-1.png) no-repeat right top;
+width: 100%;
+z-index: 3;
+}
+.filter-border-4
+{
+background: url(main/_img/filter/r-2.png) no-repeat right bottom;
+width: 100%;
+z-index: 4;
+}
+
+
+.filter-border-1-b
+{
+background: url(main/_img/filter/l-1.png) no-repeat left top;
+z-index: 1;
+}
+
+.filter-border-2-b
+{
+background: url(_img/filter/l-2-b.png) no-repeat left bottom;
+width: 100%;
+z-index: 2;
+}
+.filter-border-3-b
+{
+background: url(_img/filter/r-1-b.png) no-repeat right top;
+width: 100%;
+z-index: 3;
+}
+.filter-border-4-b
+{
+background: url(_img/filter/r-2-b.png) no-repeat right bottom;
+width: 100%;
+z-index: 4;
+}
+
+
+
+
+.div-inline-4
+{
+display:inline;
+float:left;
+width: 25%;
+padding: 0;
+margin: 0;
+overflow:hidden;
+}
+.div-inline-4-1
+{
+width: 23%;
+}
+
+.div-inline-4-2
+{
+width: 23%;
+}
+.div-inline-4-3
+{
+width: 23%;
+}
+.div-inline-4-4
+{
+width: 30%;
+}
+
+/*
+*html .div-inline-4 { position: relative; left: -3px;}
+*/
+*html .div-inline-4 {
+margin: 0 -3px; ma\rgin: 0;
+}
+
+div.div-inline-inside
+{
+padding: 0 10px 0 13px;
+}
+
+.filter-param-list
+{
+list-style-type:none;
+}
+.filter-param-list li
+{
+	margin: 8px 0 4px 0;
+	padding: 0 0 0 0;
+}
+
+ul.ul-param-two-on-line
+{
+overflow:hidden;
+width: 100%;
+padding: 0;
+margin: 0 0 5px 0;
+}
+ul.ul-param-two-on-line li
+{
+display:block;
+padding: 0 0 0 10px;
+}
+
+#catalogue-filter
+{
+margin: 0 0 0 0;
+padding: 0;
+position:relative;
+background-color: #E7E7E7;
+}
+#catalogue-filter-inside
+{
+padding: 6px;
+}
+
+
+#catalogue-filter ul
+{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+
+#catalogue-filter h5
+{
+color:#FF0000;
+margin: 5px 0 3px 5px;
+padding: 0;
+}
+
+#catalogue-filter h4
+{
+color:#929292;
+margin: 15px 0 0 5px;
+padding: 0;
+}
+#catalogue-filter #p-submit
+{
+padding: 10px 0 0 0;
+text-align:center;
+}
+#catalogue-filter .div-container
+{
+padding: 3px;
+}

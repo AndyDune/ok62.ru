@@ -1,0 +1,39 @@
+/* CSS Document */
+#user-info-page table
+{
+width: 100%;
+}
+#user-info-page table tr td
+{
+vertical-align:top;
+}
+
+#user-info-page h1
+{
+border-bottom: 2px solid #999999;
+font-size:18px;
+margin: 0 0 10px 0;
+}
+#user-info-page h2
+{
+font-size:16px;
+margin: 10px 0 2px 0;
+paddong:0;
+}
+
+#info-part
+{
+padding: 0 10px 10px 10px;
+}
+#info-part table
+{
+width: 500px;
+}
+.prompting
+{
+width: 200px;
+}
+.td-shot
+{
+text-align:center;
+}

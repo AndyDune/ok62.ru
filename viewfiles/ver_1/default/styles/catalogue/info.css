@@ -1,0 +1,364 @@
+@charset "windows-1251";
+#canvas_object_info {
+/*	width:  100%;
+*/
+	z-index: 2;
+	margin:  20px auto;
+	overflow: auto;
+	
+	padding: 0;
+	}
+
+
+#canvas_object_info #catalogue-left {
+	margin-left: -100%;
+	width: 300px;
+	z-index: 2;
+
+}
+#canvas_object_info #catalogue-left .sap-content
+{
+padding: 70px 0 0 0;
+margin: 0 15px 0 0;
+}
+
+
+
+#canvas_object_info #catalogue-main {
+	margin-left: -100%;
+	width: 100%;
+}
+#canvas_object_info #catalogue-main .sap-content{
+padding-right: 10px;
+}
+
+
+#canvas_object_info #catalogue-right {
+	margin-left: -10px;
+	width: 0px;
+}
+
+
+
+#object-shot-info
+{
+margin: 10px 0 10px 0;
+padding: 1px;
+}
+
+
+#object-shot-info #object-shot-grafic-param
+{
+margin: 5px 0 0 0;
+}
+#object-shot-grafic-param a, #object-shot-grafic-param a img
+{
+text-decoration:none ;
+display:inline;
+}
+
+#object-shot-grafic-param
+{
+margin: 2px 0 3px 0;
+padding: 0;
+}
+
+
+#object-shot-info-bookmarks ul
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+width: 100%;
+overflow:hidden;
+}
+#object-shot-info-bookmarks ul li#bm-number
+{
+padding: 0;
+margin: 0;
+float:left;
+background: #E9EAEC url(_img/shot/vkl-l.gif) no-repeat left top;
+}
+#object-shot-info-bookmarks ul li#bm-number a
+{
+color:#666666;
+font-size:16px;
+font-weight:bold;
+
+}
+#object-shot-info-bookmarks ul li#bm-number span
+{
+display:block;
+background: url(_img/shot/vkl-r.gif) no-repeat right top;
+padding: 7px 10px 7px 10px;
+min-width: 100px;
+text-align:center;
+
+color:#FF0000;
+color:#666666;
+
+font-size:16px;
+font-weight:bold;
+}
+
+#object-shot-info-bookmarks ul 
+{
+padding: 0 0 0 0;
+}
+
+#object-shot-info-bookmarks ul li.link
+{
+padding: 0;
+margin: 0 5px 0 5px;
+float:right;
+}
+
+
+#object-shot-info-bookmarks ul li.link a
+{
+display:block;
+background: url(_img/shot/knopka-activ-l.gif) no-repeat left center;
+text-decoration:none;
+}
+#object-shot-info-bookmarks ul li.link a span
+{
+display:block;
+background: url(_img/shot/knopka-activ-r.gif) no-repeat right center;
+padding: 7px 15px 8px 15px;
+min-width: 100px;
+text-align:center;
+font-size:14px;
+font-weight:bold;
+color:#FF0000;
+}
+#object-shot-info-bookmarks ul li.link a:hover
+{
+background: url(_img/shot/knopka-l.gif) no-repeat left center;
+}
+#object-shot-info-bookmarks ul li.link a:hover span
+{
+background: url(_img/shot/knopka-r.gif) no-repeat right center;
+color:#000000;
+}
+
+/*
+#object-shot-info-bookmarks ul li.link a
+{
+display:block;
+background: url(_img/shot/knop.gif) no-repeat center center;
+width: 220px;
+height: 33px;
+text-decoration:none;
+text-align:center;
+color: #FDC90B;
+font-size:16px;
+font-weight:bold;
+line-height: 33px;
+}
+#object-shot-info-bookmarks ul li.link a:hover
+{
+background: url(_img/shot/knop-a.gif) no-repeat center center;
+color:#000000;
+}
+*/
+
+#object-shot-info-this
+{
+background: #E9EAEC url(_img/shot/bg-l.gif) no-repeat left bottom;
+}
+#object-shot-info-this-inside-up-left-u
+{
+position:relative;
+background: url(_img/shot/bg-l-up.gif) no-repeat left top;
+}
+#object-shot-info-this-inside-down-right-u
+{
+background: url(_img/shot/bg-r.gif) no-repeat right bottom;
+position:relative;
+}
+#object-shot-info-this-inside-u
+{
+background: url(_img/shot/bg-r-up.gif) no-repeat right top;
+padding: 5px 5px 6px 6px;
+}
+
+
+/*
+#object-shot-info-this-inside-up-left
+{
+position:relative;
+background: url(_img/shot/bg-l-up.gif) no-repeat left top;
+}
+
+#object-shot-info-this-inside-up-right
+{
+background: url(_img/shot/bg-r.gif) no-repeat right bottom;
+position:relative;
+}
+#object-shot-info-this-inside-down-right
+{
+background: url(_img/shot/bg-r-up.gif) no-repeat right top;
+position:relative;
+}
+
+#object-shot-info-this-inside
+{
+padding: 5px;
+}
+*/
+
+#object-shot-info-this-inside
+{
+background: url(_img/shot/bg-r.gif) no-repeat right bottom;
+padding: 5px 5px 6px 6px;
+}
+
+
+
+#table-object-shot-info
+{
+width: 100%;
+margin: 0 0 0 0;
+}
+#table-object-shot-info p
+{
+font-size:16px;
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#table-object-shot-info tr td.td-object-shot-info p.object-shot-deal
+{
+padding: 10px 0 0 0;
+font-weight: bold;
+}
+
+
+#table-object-shot-info tr td
+{
+vertical-align:middle;
+text-align:center;
+}
+
+#table-object-shot-info tr td.td-object-shot-image
+{
+width: 110px;
+}
+#table-object-shot-info tr td.td-object-shot-image image
+{
+border: 1px solid #999999;
+padding: 1px;
+}
+#table-object-shot-info tr td.td-object-shot-info
+{
+text-align:left;
+vertical-align:top;
+padding: 0 0 0 10px;
+}
+#table-object-shot-info tr td.td-object-shot-info h1
+{
+font-size:20px;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+#table-object-shot-info tr td.td-object-shot-info p
+{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+#table-object-shot-info tr td.td-object-shot-price
+{
+text-align:right;
+}
+#table-object-shot-info tr td.td-object-shot-price .object-shot-price
+{
+font-weight:bold;
+}
+#table-object-shot-info tr td.td-object-shot-price .object-shot-price span
+{
+color:#000000;
+}
+#table-object-shot-info tr td.td-object-shot-price .object-shot-price span.price-number
+{
+color:#FF0000;
+font-weight:bold;
+font-size: 110%;
+}
+#table-object-shot-info tr td.td-object-shot-price .object-shot-price span.price-red
+{
+color:#FF0000;
+}
+
+#table-object-shot-info tr td.td-object-shot-price .object-shot-haggling
+{
+padding: 5px 0 0 0;
+color:#EC4900;
+font-size: 110%;
+}
+
+
+#table-object-shot-info tr td.td-object-shot-price .object-shot-price span.price-old
+{
+color:#000;
+font-weight:bold;
+font-size: 110%;
+text-decoration:line-through;
+}
+.hide
+{
+visibility:hidden;
+}
+
+#table-object-shot-info tr td.td-object-shot-price .object-shot-code span
+{
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Document */
+#catalogue-list
+{
+font-size:12px;
+padding: 5px 10px 0 0;
+}
+#catalogue-list table
+{
+width: 100%;
+border-bottom: 1px solid #999999;
+border-collapse:collapse;
+}
+
+#catalogue-list table th
+{
+border-bottom: 1px solid #999999;
+}
+
+#catalogue-list table tr td
+{
+padding: 10px 5px 10px 5px;
+}
+
+#catalogue-list table a
+{
+color:#0099CC;
+}
+
+#catalogue-list a:hover
+{
+color:red;
+}
+

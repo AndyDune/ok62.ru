@@ -1,0 +1,26 @@
+#banners-left
+{
+padding: 1px 0 10px 0;
+text-align:center;
+}
+
+#banners-left div
+{
+padding: 10px 0 1px 0;
+text-align:center;
+}
+
+#banners-left div a
+{
+text-align:center;
+}
+#banners-left div a img
+{
+display:inline;
+}
+
+#banners-special
+{
+padding: 0;
+margin: 0;
+}

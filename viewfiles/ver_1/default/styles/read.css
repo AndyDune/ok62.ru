@@ -1,0 +1,144 @@
+h1
+{
+padding-top: 23px;
+}
+#container-for-banners
+{
+position:absolute;
+top: 230px;
+}
+#container-for-banners div
+{
+	margin: 5px auto 0 auto;
+}
+
+#inside-for-banners
+{
+min-height: 800px;
+}
+.head-list dt
+{
+color:#666666;
+font-weight: bold;
+margin: 5px 0 0 0;
+padding: 0;
+}
+.head-list dt a
+{
+color:#666666;
+font-weight: bold;
+}
+
+.head-list dd
+{
+padding: 0;
+margin: 0 0 10px 20px;
+padding: 1px 0 5px 5px;
+border-left: 1px solid #666666;
+}
+.head-list dd ul
+{
+padding: 0;
+margin: 2px;
+}
+
+.head-list-inside dt
+{
+color:#666666;
+font-weight: bold;
+margin: 0 0 0 0;
+padding: 3px 0 0 0;
+}
+.head-list-inside dd
+{
+border-left: 0px solid #666666;
+padding: 0 0 0 0;
+margin: 2px 0 7px 20px;
+}
+
+
+#article-comment-do table tr td, #article-comment-list table tr td
+{
+vertical-align:top;
+font-size: 12px;
+}
+#article-comment-list table
+{
+width: 99%;
+border-collapse:collapse;
+}
+div.table-outside
+{
+position:relative;
+padding: 5px;
+margin: 5px 0 0 0;
+background-color:#E9EAEC;
+}
+
+#article-comment-list div table tr td
+{
+vertical-align:top;
+padding: 3px;
+position:relative;
+}
+#article-comment-list table td.first
+{
+width: 100px;
+}
+#article-comment-list table td.first div
+{
+width: 150px;
+overflow:hidden;
+}
+
+#article-comment-list table tr td p.user-name
+{
+padding: 0;
+margin: 0;
+text-align:center;
+}
+#article-comment-list table tr td p.user-reg
+{
+padding: 4px 0 0 0;
+margin: 0;
+text-align:center;
+font-style:italic;
+font-size:11px;
+}
+
+#article-comment-list table tr td p.time-insert
+{
+padding: 5px 0 0 0;
+font-style:italic;
+margin: 0;
+text-align:right;
+}
+
+#article-comment-list table tr td p.user-img
+{
+margin: 0;
+padding: 5px;
+text-align:center;
+}
+
+#article-comment-list table tr td p.user-img img
+{
+margin: 0 auto;
+}
+
+#article-comment-list h2, #article-comment-do h2
+{
+padding: 20px 0 0 0;
+margin: 0;
+color: #8B8789;
+}
+.message-comment-no-saved
+{
+color:#FF0000;
+font-weight:bold;
+}
+.message-comment-saved
+{
+color:#00FF00;
+font-weight:bold;
+}

@@ -1,0 +1,33 @@
+#content
+{
+height: 400px;
+}
+/* Закруглённые углы */
+.round-top-right
+{
+right: -2px;
+}
+
+.round-bottom-right
+{
+right: -2px;
+}
+
+.bookmark-bottom-left
+{
+left: -1px;
+}
+.bookmark-bottom-right
+{
+right: -1px;
+}
+
+#object-under-bookmark
+{
+height: 400px;
+}
+
+#talk-list dl dd
+{
+height: 50px;
+}

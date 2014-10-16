@@ -1,0 +1,46 @@
+/* CSS Document */
+#catalogue-list
+{
+font-size:12px;
+padding: 5px 10px 0 0;
+}
+#catalogue-list table
+{
+width: 100%;
+border-bottom: 1px solid #999999;
+border-collapse:collapse;
+}
+
+#catalogue-list table th
+{
+border-bottom: 1px solid #999999;
+}
+
+#catalogue-list table tr td
+{
+padding: 10px 5px 10px 5px;
+}
+
+#catalogue-list a
+{
+color:#0099CC;
+}
+#catalogue-list a:hover
+{
+color:red;
+}
+
+
+.navigator
+{
+margin: 5px 0 5px 0;
+}
+.navigator a, .navigator span
+{
+margin: 3px;
+padding: 3px;
+}
+.navigator span
+{
+border: 1px solid #666666;
+}

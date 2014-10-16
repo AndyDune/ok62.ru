@@ -1,0 +1,108 @@
+#ocatalogue h2
+{
+color:#CC6633;
+padding: 0;
+margin: 10px 0 0 0;
+font-size:16px;
+border-bottom: 2px solid #CC6633;
+}
+#ocatalogue table
+{
+width: 100%;
+}
+#ocatalogue table tr td
+{
+vertical-align:top;
+}
+#ocatalogue table tr td h3
+{
+padding: 0 0 0 10px;
+margin: 0 0 0 0;
+text-decoration:none;
+border-bottom: 1px solid #999999;
+width: 99%;
+}
+#ocatalogue table tr td h3 a
+{
+text-decoration:none;
+color:#333333;
+}
+#ocatalogue table tr td h3 a:hover
+{
+color:red;
+}
+
+#ocatalogue .to-info-page
+{
+text-align:right;
+}
+#ocatalogue .to-info-page a
+{
+text-decoration:none;
+font-weight:bold;
+color:#333333;
+}
+#ocatalogue .to-info-page a:hover
+{
+color:red;
+}
+
+#ocatalogue-sections
+{
+width: 99%;
+overflow:hidden;
+}
+
+#ocatalogue-sections h2
+{
+margin: 0 0 5px 0;
+}
+
+
+#ocatalogue-sections .one-sections
+{
+width: 30%;
+float:left;
+}
+#ocatalogue-sections .one-sections a
+{
+color:#666666;
+font-weight:bold;
+font-size: 100%;
+}
+#ocatalogue-sections .one-sections table tr td
+{
+vertical-align:middle;
+}
+
+#ocatalogue-one
+{
+position:relative;
+}
+#ocatalogue-one #ocatalogue-one-img
+{
+float:left;
+width: 170px;
+text-align:left;
+padding: 0 0 0 20px;
+}
+#ocatalogue-one #ocatalogue-one-info
+{
+padding: 0 0 0 200px;
+}
+
+#ocatalogue-one #ocatalogue-one-info dl dt
+{
+font-weight:bold;
+color:#333333;
+}
+#ocatalogue-one #ocatalogue-one-info dl dd
+{
+margin: 0 0 0 70px;
+}
+
+#ocatalogue-one #ocatalogue-one-info .diskont
+{
+color:#FF0000;
+font-size: 120%;
+}

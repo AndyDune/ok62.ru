@@ -1,0 +1,48 @@
+#add-object table
+{
+width: 100%;
+}
+
+#add-object table tr td.add-object-prompting
+{
+width: 40%;
+}
+
+#add-object table tr td
+{
+	padding: 2px;
+}
+#add-object-adress-part, #add-object-info-part, #add-object-final-part, #edit-object-pics
+{
+border: 1px solid #333333;
+position:relative;
+padding: 3px;
+margin: 10px 0 0 3px;
+}
+
+#add-object-info-part .textarea
+{
+width: 100%;
+}
+
+#edit-object-container table tr td
+{
+vertical-align:top;
+}
+.input-shot
+{
+width: 50px;
+}
+table#main-edit-table
+{
+width: 100%;
+vertical-align:top;
+}
+#edit-object-pics-td
+{
+width: 30%;
+}
+#edit-object-pics
+{
+width: 100%;
+}

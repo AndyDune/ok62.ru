@@ -1,0 +1,38 @@
+.list-table
+{
+border-collapse:collapse;
+width: 100%;
+border-width: 1px;
+}
+.list-table tr th
+{
+border: 1px solid #999999;
+background-color:#FFCC99;
+padding: 0 5px 0 5px;
+}
+.list-table td
+{
+text-align:center;
+border: 1px solid #CCCCCC;
+}
+.list-td-id
+{
+
+}
+.hilight-hover
+{
+background-color:#FFCC99;
+background-color:#FFCC99;
+}
+.list-table td.list-td-text-shot
+{
+font-size:16px;
+text-align: left;
+padding: 4px;
+width: 100%;
+}
+.list-table td.list-td-text-shot a
+{
+display:block;
+width: 100%;
+}

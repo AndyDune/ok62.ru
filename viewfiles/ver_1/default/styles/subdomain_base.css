@@ -1,0 +1,21 @@
+#content-adress-main
+{
+top: -70px;
+margin-bottom: 0px;
+z-index: 2000;
+}
+
+#content-adress-main-in
+{
+background-color: #E8E8E8;
+padding: 5px 10px 13px 5px;
+}
+#more_edit_menu
+{
+top: 45px;
+}
+
+#catalogue-filter
+{
+top: -40px;
+}

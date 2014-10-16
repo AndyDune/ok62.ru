@@ -1,0 +1,65 @@
+#users-list
+{
+width: 100%;
+}
+#users-list tr td.td-avatara
+{
+width: 60px;
+}
+
+#users-list tr td.td-text
+{
+vertical-align:top;
+border-top: 1px solid #666666;
+}
+
+#users-list tr td.td-text p.p-general-info
+{
+margin: 0;
+padding: 0;
+}
+
+#users-list tr td.td-text p
+{
+margin: 2px;
+padding: 0;
+}
+
+#users-list tr td.td-text p.p-general-info a.user-link
+{
+color:#FF0000;
+font-weight:bold;
+}
+
+#ul-users-list-sort
+{
+list-style-type:none;
+padding: 0;
+margin: 15px 0px;
+width: 100%;
+overflow:auto;
+}
+
+#ul-users-list-sort li
+{
+float:left;
+margin: 5px;
+padding: 5px
+}
+
+#ul-users-list-sort li.current
+{
+border: 1px dotted #666666;
+padding: 5px
+}
+
+#ul-users-list-sort li.current a 
+{
+text-decoration:none;
+}
+
+
+#ul-users-list-sort li.li-no-info
+{
+font-weight:bold;
+}

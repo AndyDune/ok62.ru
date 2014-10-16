@@ -1,0 +1,102 @@
+ul#adress-list-main li.adress-blocks
+{
+margin:-16px 0 0 0; padding:0; position: relative;
+}
+
+#inside-for-banners
+{
+height: 800px;
+}
+
+#to-page-special
+{
+bottom: -5px;
+}
+
+.ie-mar-input
+{
+margin: -2px 0 0 0;
+}
+
+#content
+{
+height: 400px;
+}
+/* Закруглённые углы */
+.round-top-right
+{
+right: -2px;
+}
+
+.round-bottom-right
+{
+right: -2px;
+}
+
+.bookmark-bottom-left
+{
+left: -1px;
+}
+.bookmark-bottom-right
+{
+right: -1px;
+}
+
+#object-under-bookmark
+{
+height: 400px;
+}
+
+#talk-list dl dd
+{
+height: 50px;
+}
+
+
+.ugol-right-top-white
+{
+right: -1px;
+}
+.ugol-right-bottom-white
+{
+right: -1px;
+bottom: -1px;
+}
+.ugol-left-bottom-white
+{
+bottom: -1px;
+}
+
+.ugol-right-top
+{
+right: -1px
+}
+.ugol-right-bottom
+{
+right: -1px
+}
+#catalogue-filter
+{
+}
+#catalogue-filter-inside
+{
+}
+#talk_page #talk-list dl.one-message dd
+{
+height: 10px;
+}
+
+#filter-seller-list-onmain ul
+{
+float:left;
+}
+#filter-types-list-onmain ul
+{
+float:left;
+}
+#filter-seller-list-onmain #ul-seller li.down-seller-li
+{
+/*
+height: 300px;
+*/
+}

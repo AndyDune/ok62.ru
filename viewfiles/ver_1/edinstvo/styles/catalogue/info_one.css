@@ -1,0 +1,417 @@
+/* CSS Document */
+#bookmark, #bookmark-object
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+	overflow:auto;
+}
+#bookmark-object
+{
+	padding: 0 0 7px 10px;
+}
+
+#bookmark li, #bookmark-object li
+{
+	float:left;
+	margin: 0 3px 0 3px;
+	padding: 0;
+}
+#bookmark-object li
+{
+	padding: 5px 0 0 0;
+}
+
+#bookmark li a, #bookmark-object li a
+{
+	text-decoration:none;
+	display:block;
+	margin: 0;
+}
+
+#bookmark li a span, #bookmark-object li a span
+{
+	display:block;
+	
+	padding: 8px;	
+	font-size:16px;
+	color:#000000;
+}
+#bookmark li a span em, #bookmark-object li a span em
+{
+	border-bottom: 1px dashed #000000;
+}
+
+
+#bookmark li.current a
+{
+	background: #E8E8E8 url(_img/ugols/l-1.png) no-repeat left top;
+}
+#bookmark li.current a span
+{
+	background: url(_img/ugols/r-1.png) no-repeat right top;	
+}
+#bookmark li.current a span em, #bookmark li a:hover span em
+{
+	border-bottom: 0px dashed #000000;
+}
+
+
+
+#bookmark-object li a
+{
+padding: 2px 10px 2px 37px;
+}
+#bookmark-object li#bookmark-info a
+{
+background: url(_img/param/big/k1.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-plan a
+{
+background: url(_img/param/big/k2.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-house a
+{
+background: url(_img/param/big/k4.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-photo a
+{
+background: url(_img/param/big/k5.png) no-repeat left center;
+}
+
+#bookmark-object li#bookmark-floor a
+{
+background: url(_img/param/big/k3.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-situa a
+{
+background: url(_img/param/big/k8.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-gm a
+{
+background: url(_img/param/big/k7.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-panorama a
+{
+background: url(_img/param/big/k6.png) no-repeat left center;
+}
+#bookmark-object li#bookmark-group a
+{
+background: url(_img/param/big/k10.png) no-repeat left center;
+}
+
+#bookmark-object li#bookmark-pd a
+{
+background: url(_img/param/big/pd.png) no-repeat left center;
+}
+
+#bookmark-object li.current a, #bookmark-object li a:hover
+{
+opacity:0.50;
+}
+#bookmark-object li.current a span em, #bookmark-object li a:hover span em
+{
+border-bottom: 0px dashed #000000;
+}
+
+
+
+#talk-mode-change
+{
+margin: 20px 0 0 0;
+}
+#talk-mode-change ul
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+	overflow:auto;
+}
+#talk-mode-change ul li
+{
+	float:left;
+	margin: 0 3px 0 3px;
+	padding: 0;
+}
+#talk-mode-change ul li a
+{
+	text-decoration:none;
+	display:block;
+	margin: 0;
+}
+#talk-mode-change ul li p
+{
+margin: 0;
+padding: 0;
+}
+#talk-mode-change ul li a span, #talk-mode-change ul li p span
+{
+	display:block;
+	
+	padding: 8px;	
+	font-size:16px;
+	color:#000000;
+}
+#talk-mode-change ul li a span em
+{
+	border-bottom: 1px dashed #000000;
+}
+#talk-mode-change ul li a:hover span em
+{
+	border-bottom: 0px dashed #000000;
+}
+
+
+#talk-mode-change ul li.current p, #bookmark li a:hover
+{
+	background: #E8E8E8 url(_img/ugols/l-1.png) no-repeat left top;
+}
+#talk-mode-change ul li.current p span, #bookmark li a:hover span 
+{
+	background: url(_img/ugols/r-1.png) no-repeat right top;	
+}
+#talk-mode-change ulli.current p span em, #bookmark li a:hover span em
+{
+	border-bottom: 0px dashed #000000;
+}
+
+#object-under-bookmark .object-page
+{
+padding: 5px 9px;
+margin: 0;
+}
+#object-under-bookmark .object-page strong
+{
+	display:block;
+	padding: 8px 0 8px 40px;
+	font-size: 16px;
+}
+
+#object-under-bookmark #object-page-info strong
+{
+	background: url(_img/param/big/k1.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-pd strong
+{
+	background: url(_img/param/big/pd.png) no-repeat left center;
+}
+
+#object-under-bookmark #object-page-plan strong
+{
+	background: url(_img/param/big/k2.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-gm strong
+{
+	background: url(_img/param/big/k7.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-group strong
+{
+	background: url(_img/param/big/k10.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-floor strong
+{
+	background: url(_img/param/big/k3.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-panorama strong
+{
+	background: url(_img/param/big/k6.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-house strong
+{
+	background: url(_img/param/big/k4.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-photo strong
+{
+	background: url(_img/param/big/k5.png) no-repeat left center;
+}
+#object-under-bookmark #object-page-situa strong
+{
+	background: url(_img/param/big/k8.png) no-repeat left center;
+}
+
+
+#object-under-bookmark
+{
+background-color:#E8E8E8;
+padding: 5px;
+margin: 0;
+position:relative;
+min-height: 400px;
+}
+.bookmark-bottom-left, .bookmark-bottom-right
+{
+display:block;
+margin: 0;
+padding: 0;
+width: 10px;
+height: 10px;
+display:block;
+position:absolute;
+}
+.bookmark-bottom-left
+{
+bottom: 0;
+left: 0;
+background: url(img/bookmark-left-1-bottom.gif) no-repeat left bottom;
+}
+.bookmark-bottom-right
+{
+bottom: 0;
+right: 0;
+background: url(img/bookmark-right-1-bottom.gif) no-repeat left bottom;
+}
+
+
+.dl-description dt
+{
+font-weight:bold;
+}
+
+.dl-description dd
+{
+font-weight:normal;
+}
+
+
+
+#object-info
+{
+font-size:14px;
+padding: 5px;
+}
+#object-info .h2-object-info
+{
+display:none;
+}
+#two-col-table
+{
+width: 100%;
+}
+#two-col-table tr td
+{
+vertical-align:top;
+position:relative;
+}
+#two-col-table tr td #print-buttom
+{
+position:absolute;
+right: 20px;
+top: 10px;
+width: 100px;
+text-align:right;
+}
+
+#two-col-table h3
+{
+color: #878787;
+width: 250px;
+border-bottom: 1px solid #878787;
+font-size:16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#object-info #two-col-table tr td.left
+{
+width: 350px;
+}
+
+#object-info #two-col-table tr td .p-adress
+{
+margin: 0;
+padding: 2px;
+font-weight:bold;
+}
+#object-info #two-col-table tr td .p-adress-no-main
+{
+margin: 0;
+padding: 2px;
+}
+#object-info #two-col-table tr td .preview_big img
+{
+border: 1px solid #999999;
+padding: 1px;
+}
+
+
+.object-parameters-list
+{
+width: 100%;
+}
+.object-parameters-list tr td
+{
+padding: 8px 0 0 0;
+font-weight:bold;
+vertical-align:bottom;
+}
+
+.object-parameters-list tr td.object-prompting
+{
+width: 200px;
+font-weight:normal;
+vertical-align:top;
+}
+
+.object-one-param
+{
+padding: 0;
+margin: 14px 0 0 4px;
+font-size:16px;
+}
+.object-one-param span
+{
+font-weight:bold
+}
+
+#object-info dl.dl-description dt
+{
+color: #878787;
+width: 250px;
+border-bottom: 1px solid #878787;
+font-size:16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#object-info dl.dl-description dd
+{
+padding: 5px;
+}
+
+
+#object-info dl.dl-description-long dt
+{
+color: #878787;
+width: 100%;
+border-bottom: 1px solid #878787;
+font-size:16px;
+font-weight:bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+#object-info dl.dl-description-long dd
+{
+padding: 5px;
+}
+
+
+
+
+
+#object-info .p-object-shot-price
+{
+padding: 0;
+margin: 0;
+text-align:right;
+}
+#object-info .p-object-shot-price span
+{
+font-weight:bold;
+}
+
+#object-info .p-object-shot-price-valuta
+{
+padding: 0;
+margin: 0;
+text-align:right;
+}
+
+

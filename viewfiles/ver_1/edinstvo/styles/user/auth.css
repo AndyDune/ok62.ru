@@ -1,0 +1,260 @@
+#container-padding-for-auth
+{
+	padding: 0;
+	margin: 0;
+	width: 99%;
+	position:relative;
+}
+#container-padding-for-auth #inside
+{
+	padding: 0 0 0 300px;
+	margin: 0;
+}
+
+
+#enter-buttom
+{
+border: 0px;
+background: #fff url(_img/enter.png) no-repeat left top;
+width: 73px;
+height: 25px;
+cursor:pointer;
+margin: 0;
+padding: 0;
+}
+#h1-for-auth-forms
+{
+right: 0;
+top: 0;
+text-align:right;
+padding: 0 5px 0 5px;
+margin: 0;
+color:#9B9898;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Колонки на главной до поиска*/
+#auth-form-and-new-last
+{
+width: 100%;
+overflow:auto;
+padding: 14px 0 0 0;
+position:relative;
+}
+#auth-form-col
+{
+	margin-left: -100%;
+	width: 300px;
+	z-index: 10;
+}
+#auth-form-col  .sap-content
+{
+	padding: 7px 0 0 0;
+}
+
+#new-last-col
+{
+	margin-left: -100%;
+	width: 100%;
+}
+
+#new-last-col .sap-content
+{
+	padding: 7px 0 0 300px;	
+}
+
+/* END Колонки на главной до поиска*/
+#p-enter-buttom
+{
+text-align:right;
+margin: 0;
+padding: 0;
+}
+
+.no-display
+{
+display:none;
+visibility:visible;
+}
+
+.look-for-message
+{
+position:absolute;
+right: 5px;
+top: 140px;
+z-index: 10;
+background-color: #E8E8E8;
+padding: 3px;
+margin: 0;
+opacity: 0.99;
+text-align:center;
+border: 1px solid #000000;
+}
+.look-for-message p
+{
+margin: 0 0 7px 0;
+padding: 0;
+}
+.look-for-message .look-for-message-user
+{
+margin: 0 0 12px 0;
+}
+.look-for-message p.link-to-message
+{
+padding: 0px;
+}
+
+#user-enter-form-common
+{
+z-index: 100;
+position:absolute;
+width: 400px;
+padding: 1px 0 0 0;
+margin: 0;
+height: 30px;
+bottom: 40px;
+right: 15px;
+}
+#user-enter-form-common #p-main-line
+{
+position:absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align:right;
+padding: 0;
+margin: 0;
+}
+#user-enter-form-common #p-main-line a
+{
+margin: 0 7px 0 0;
+}
+#user-enter-form-common #p-main-line a img
+{
+display:inline;
+}
+
+#user-enter-form-common #user-name
+{
+margin: 0;
+padding: 0 0 0 20px;
+background: url(_img/che.gif) no-repeat left center;
+}
+
+#user-enter-form-common #user-talk
+{
+text-align:left;
+margin: 0;
+padding: 0 0 0 30px;
+background: url(_img/nmes.gif) no-repeat left center;
+
+}
+
+#user-enter-form-common p#p-admin-panel
+{
+position:absolute;
+text-align:right;
+margin: 10px 0 0 25px;
+padding: 0 0 0 20px;
+background: url(_img/che.gif) no-repeat left center;
+right: 0;
+bottom: 30px;
+}
+
+#user-enter-form-common p a
+{
+color: #FF0000;
+font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+font-weight:bold;
+}
+
+
+
+#user-enter-form-hidden
+{
+position:absolute;
+border: 1px solid #666666;
+top: 110px;
+right: 15px;
+z-index: 100;
+background-color:#E8E8E8;
+padding: 5px;
+min-height: 120px;
+}
+#user-enter-form-hidden p.name-parol span
+{
+display:block;
+}
+#user-enter-form-hidden #p-enter-buttom
+{
+text-align:center;
+}
+
+#user-enter-form-hidden #p-close-hidden
+{
+padding: 0;
+margin: 0;
+text-align:center;
+}
+#user-enter-form-hidden #p-close-hidden a
+{
+color:#FF0000;
+font-weight:bold;
+}
+#user-enter-form-hidden #p-get-pass
+{
+padding: 5px 0 0 0;
+margin: 0;
+text-align:center;
+}
+
+
+#user-enter-form-page
+{
+padding: 20px 0 0 0;
+text-align:center;
+}
+#user-enter-form-page a
+{
+color:#FF0000;
+}
+
+
+#user-enter-form-page dl
+{
+width: 250px;
+padding: 0;
+margin: 0 auto;
+text-align:center;
+}
+#user-enter-form-page dl dt
+{
+padding: 0;
+margin: 0;
+}
+#user-enter-form-page dl dd
+{
+padding: 0;
+margin: 0;
+}
+
+#user-enter-form-page dl dd input
+{
+padding: 3px;
+text-align:center;
+font-size:26px;
+width: 100%;
+}
+#user-enter-page-submit
+{
+text-align:center;
+margin: 0 auto;
+}
+#user-enter-page-submit input
+{
+display:block;
+font-size:18px;
+margin: 5px auto 0 auto;
+padding: 6px;
+width: 250px;
+}

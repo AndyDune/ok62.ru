@@ -1,0 +1,149 @@
+/* CSS Document */
+#bookmark
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow:auto;
+}
+#bookmark li
+{
+	float:left;
+	margin: 0 3px 0 3px;
+	padding: 0;
+}
+#bookmark li a
+{
+	background: #E0DEDD url(img/bookmark-left-2.gif) no-repeat left top;
+	text-decoration:none;
+	display:block;
+	margin: 0;
+}
+
+#bookmark li a span
+{
+	display:block;
+	background: url(img/bookmark-right-2.gif) no-repeat right top;	
+	
+	padding: 5px;	
+	font-size:16px;
+}
+
+
+#bookmark li.current a, #bookmark li a:hover
+{
+	background: #F1F5E3 url(img/bookmark-left-1.gif) no-repeat left top;
+}
+#bookmark li.current a span, #bookmark li a:hover span 
+{
+	background: url(img/bookmark-right-1.gif) no-repeat right top;	
+}
+
+
+#object-under-bookmark
+{
+background-color:#F1F5E3;
+padding: 5px;
+margin: 0;
+position:relative;
+min-height: 400px;
+}
+.bookmark-bottom-left, .bookmark-bottom-right
+{
+display:block;
+margin: 0;
+padding: 0;
+width: 10px;
+height: 10px;
+display:block;
+position:absolute;
+}
+.bookmark-bottom-left
+{
+bottom: 0;
+left: 0;
+background: url(img/bookmark-left-1-bottom.gif) no-repeat left bottom;
+}
+.bookmark-bottom-right
+{
+bottom: 0;
+right: 0;
+background: url(img/bookmark-right-1-bottom.gif) no-repeat left bottom;
+}
+
+
+#dl-description dd
+{
+font-weight:normal;
+}
+
+
+#object-info
+{
+font-size:14px;
+}
+#object-info table
+{
+width: 100%;
+font-weight:bold;
+}
+#object-info table tr td.object-prompting
+{
+width: 40%;
+font-weight:normal;
+}
+#object-info table tr td
+{
+padding: 3px 0 3px 0;
+}
+
+#saler-short-info, #saler-short-info dt, #saler-short-info dd
+{
+padding: 0;
+margin: 0;
+text-align:center;
+background-color:#F1F5E3;
+}
+#saler-short-info
+{
+padding: 10px 0 10px 0;
+}
+
+#saler-short-info dt
+{
+font-size:16px;
+font-style:italic;
+}
+
+#saler-short-info dd a
+{
+margin: 5px auto 5px auto;
+display:block;
+text-align:center;
+}
+#saler-short-info dd img
+{
+display:block;
+margin: 5px auto 5px auto;
+}
+#div-save-object-panel
+{
+width: 100%;
+text-align:center;
+}
+#a-save-buttom
+{
+font-size:24px;
+text-decoration:none;
+display:block;
+margin: 10px auto 10px auto;
+text-align:center;
+background-color:#00FF00;
+padding: 10px;
+width: 150px;
+}
+#a-save-buttom:hover
+{
+background-color: #F1F5E3;
+}

@@ -1,0 +1,14 @@
+#object-info-photo
+{
+width: 99%;
+overflow:auto;
+}
+.div-one-object-photo
+{
+float:left;
+background-color:#FFFFFF;
+padding: 5px;
+margin: 10px;
+height: 170px;
+width: 170px;
+}

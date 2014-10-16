@@ -1,0 +1,95 @@
+#h1-for-auth-forms
+{
+right: 0;
+top: 0;
+position:absolute;
+text-align:right;
+padding: 0 20px 0 0;
+color:#9B9898;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#user-enter-form-common
+{
+position:absolute;
+right: 100px;
+width: 220px;
+padding: 20px 0 0 0;
+text-align:center;
+}
+#user-enter-form-common p
+{
+padding: 0 0 5px 0;
+margin: 0;
+}
+
+#user-enter-form-common dl
+{
+padding: 0;
+margin: 0;
+text-align:center;
+}
+#user-enter-form-common dl dt
+{
+padding: 0;
+margin: 0 auto 0 auto;
+}
+#user-enter-form-common dl dd
+{
+padding: 0;
+margin: 0 auto 0 auto;
+}
+
+#user-enter-form-common dl dd input
+{
+padding: 2px;
+text-align:center;
+font-size:16px;
+width: 150px;
+}
+
+
+
+#user-enter-form-page
+{
+padding: 20px 0 0 0;
+text-align:center;
+}
+
+#user-enter-form-page dl
+{
+width: 250px;
+padding: 0;
+margin: 0 auto;
+text-align:center;
+}
+#user-enter-form-page dl dt
+{
+padding: 0;
+margin: 0;
+}
+#user-enter-form-page dl dd
+{
+padding: 0;
+margin: 0;
+}
+
+#user-enter-form-page dl dd input
+{
+padding: 3px;
+text-align:center;
+font-size:26px;
+width: 100%;
+}
+#user-enter-page-submit
+{
+text-align:center;
+margin: 0 auto;
+}
+#user-enter-page-submit input
+{
+display:block;
+font-size:18px;
+margin: 5px auto 0 auto;
+padding: 6px;
+width: 250px;
+}

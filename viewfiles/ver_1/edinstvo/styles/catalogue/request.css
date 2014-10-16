@@ -1,0 +1,42 @@
+#form
+{
+width: 100%;
+}
+#form ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+p.in-dd
+{
+padding: 0;
+margin: 3px;
+}
+
+#form textarea
+{
+width: 90%;
+}
+
+#request-menu
+{
+text-align:right;
+}
+
+#request-up-text
+{
+text-align:center;
+font-size:18px;
+}
+#request-up-text p
+{
+margin: 0;
+padding: 0;
+font-size:16px;
+}
+
+.form-field-empty
+{
+background-color:#FFFCD5;
+}

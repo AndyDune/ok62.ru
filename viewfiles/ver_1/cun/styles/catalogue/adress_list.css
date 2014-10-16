@@ -1,0 +1,403 @@
+#content-adress-main
+{
+font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+width: 100%;
+position:relative;
+top: 95px;
+margin-bottom: 95px;
+}
+#content-adress-main-in
+{
+background-color: #E8E8E8;
+padding: 5px 10px 13px 5px;
+}
+
+#content-adress-main h2
+{
+color: #3F3F3F;
+text-align:center;
+}
+ul#adress-list-main
+{
+padding: 0;
+margin: 0;
+list-style-type:none;
+}
+ul#adress-list-main ul
+{
+padding: 0;
+margin: 0 0 0 0;
+list-style-type:none;
+}
+
+ul#adress-list-main li
+{
+padding: 0;
+margin: 0;
+vertical-align:bottom;
+clear:both;
+}
+ul#adress-list-main li span.main-adress
+{
+font-size:18px;
+}
+ul#adress-list-main li span.main-adress a
+{
+float:left;
+font-size:18px;
+padding: 0 0 0 3px;
+}
+
+ul#adress-list-main li span.adress-count-city
+{
+right: 10px;
+width: 70px;
+text-align:right;
+position:absolute;
+font-size:16px;
+font-weight:bold;
+color: #A6A6A6;
+}
+
+
+ul#adress-list-main li a
+{
+text-decoration:none;
+color:#000000;
+
+
+display:block;
+width: 100%;
+overflow:hidden;
+cursor:pointer;
+}
+ul#adress-list-main li .instead-a
+{
+width: 100%;
+overflow:hidden;
+}
+
+ul#adress-list-main li a:hover
+{
+color:#FF0000;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2
+{
+padding: 0 0 0 10px;
+list-style-type:none;
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li
+{
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li a
+{
+text-decoration:none;
+margin: 2px 0 2px 0;
+padding: 3px 0 3px 3px;
+font-weight:bold;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li.current a
+{
+background-color:#FFF;
+}
+
+
+ul#adress-list-main li ul.adress-list-main-level-2 li a span.adress-name
+{
+float:left;
+padding: 0 0 0 10px;
+margin: 0;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li a span.adress-count
+{
+float:right;
+text-align:right;
+padding: 0 10px 0 0;
+margin: 0;
+color: #A6A6A6;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li .instead-a
+{
+margin: 2px 0 2px 0;
+padding: 3px 0 3px 3px;
+font-weight:bold;
+color:#999999;
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li.current .instead-a
+{
+background-color:#FFFFFF;
+color:#000000;
+}
+
+
+ul#adress-list-main li ul.adress-list-main-level-2 li .instead-a span.adress-name
+{
+float:left;
+padding: 0 0 0 10px;
+margin: 0;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li .instead-a span.adress-count
+{
+float:right;
+text-align:right;
+padding: 0 10px 0 0;
+margin: 0;
+color: #A6A6A6;
+}
+
+
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3
+{
+list-style-type:none;
+clear:both;
+position:relative;
+padding: 0 0 3px 0;
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li
+{
+display:block;
+font-weight:normal;
+margin: 0 0 0 0;
+padding: 0 0 0 20px;
+overflow:hidden;
+height: 19px;
+border-width: 0px;
+position:relative;
+vertical-align:bottom;
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li a
+{
+position:relative;
+display:block;
+margin: 1px 0 0px 0;
+padding: 0;
+overflow:hidden;
+height: 20px;
+height: 100%;
+background:#E8E8E8;
+width: 100%;
+font-weight:normal;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li a span.adress-name
+{
+	padding: 1px 1px 1px 10px;	
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li a span.adress-count
+{
+	background:url(_img/check-bg-yellow-right.png) no-repeat right top;
+	padding: 1 0px 1 1;
+}
+
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li .instead-a
+{
+position:relative;
+display:block;
+margin: 1px 0 0px 0;
+padding: 0;
+overflow:hidden;
+height: 20px;
+height: 100%;
+width: 100%;
+background:#E8E8E8;
+font-weight:normal;
+color:#999999;
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li.current .instead-a
+{
+color:#000000;
+background:#FFFCD5;
+}
+
+
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li .instead-a span.adress-name
+{
+	padding: 1px 1px 1px 10px;	
+}
+ul#adress-list-main li ul.adress-list-main-level-2 li ul.adress-list-main-level-3 li .instead-a span.adress-count
+{
+	padding: 1 0px 1 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul#adress-list-main li ul.adress-list-region
+{
+padding: 0 0 0 0;
+list-style-type:none;
+}
+ul#adress-list-main li ul.adress-list-region li
+{
+}
+
+ul#adress-list-main li ul.adress-list-region li a
+{
+text-decoration:none;
+margin: 2px 0 2px 0;
+padding: 3px 0 3px 3px;
+font-weight:bold;
+}
+
+ul#adress-list-main li ul.adress-list-region li.current a
+{
+background-color:#FFF;
+}
+
+
+ul#adress-list-main li ul.adress-list-region li a span.adress-name
+{
+float:left;
+padding: 0 0 0 0px;
+margin: 0;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul#adress-list-main li ul.adress-list-region li a span.adress-count
+{
+float:right;
+text-align:right;
+padding: 0 10px 0 0;
+margin: 0;
+color: #A6A6A6;
+font-size:16px;
+}
+
+ul#adress-list-main li ul.adress-list-region li .instead-a
+{
+margin: 2px 0 2px 0;
+padding: 3px 0 3px 3px;
+font-weight:bold;
+color:#999999;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+}
+ul#adress-list-main li ul.adress-list-region li.current .instead-a
+{
+background-color:#FFFFFF;
+color:#000000;
+}
+
+/*  Для регионов   */
+ul#adress-list-main li ul.adress-list-region li .instead-a span.adress-name
+{
+float:left;
+padding: 0 0 0 0px;
+margin: 0;
+}
+
+ul#adress-list-main li ul.adress-list-region li .instead-a span.adress-count
+{
+float:right;
+text-align:right;
+padding: 0 10px 0 0;
+margin: 0;
+color: #A6A6A6;
+}
+
+
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3
+{
+list-style-type:none;
+clear:both;
+position:relative;
+padding: 0 0 3px 0;
+}
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li
+{
+display:block;
+font-weight:normal;
+margin: 0 0 0 0;
+padding: 0 0 0 10px;
+overflow:hidden;
+height: 19px;
+border-width: 0px;
+position:relative;
+vertical-align:bottom;
+}
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li a
+{
+position:relative;
+display:block;
+margin: 1px 0 0px 0;
+padding: 0;
+overflow:hidden;
+height: 20px;
+height: 100%;
+background:#E8E8E8;
+width: 100%;
+}
+
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li a span.adress-name
+{
+	padding: 1px 1px 1px 10px;	
+	font-size:13px;
+	font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+}
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li a span.adress-count
+{
+	background:url(_img/check-bg-yellow-right.png) no-repeat right top;
+	padding: 1 5px 1 1;
+	font-size:13px;
+	font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+}
+
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li .instead-a
+{
+position:relative;
+display:block;
+margin: 1px 0 0px 0;
+padding: 0;
+overflow:hidden;
+height: 20px;
+height: 100%;
+width: 100%;
+background:#E8E8E8;
+font-weight:normal;
+color:#999999;
+}
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li.current .instead-a
+{
+color:#000000;
+background:#FFFCD5;
+}
+
+
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li .instead-a span.adress-name
+{
+	padding: 1px 1px 1px 10px;	
+		font-size:13px;
+	font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+
+}
+ul#adress-list-main li ul.adress-list-region li ul.adress-list-main-level-3 li .instead-a span.adress-count
+{
+	padding: 1 0px 1 1;
+	font-size:13px;
+	font-weight:bold;
+	font-family:"Microsoft Sans Serif", Helvetica, Arial, sans-serif;
+
+}
+

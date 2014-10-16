@@ -1,0 +1,44 @@
+#div-objects-elected
+{
+position:relative;
+top: -15px;
+background: url(_img/bgu/l-1.png) no-repeat left top;
+}
+
+.l-2
+{
+background: url(_img/bgu/l-2.png) no-repeat left bottom;
+z-index: 2;
+}
+.l-3
+{
+background: url(_img/bgu/r-1.png) no-repeat right top;
+z-index: 3;
+width: 100%;
+}
+.l-4
+{
+overflow:auto;
+width: 100%;
+background: url(_img/bgu/r-2.png) no-repeat right bottom;
+padding: 0;
+z-index: 4;
+}
+.inside
+{
+padding: 10px;
+position:relative;
+}
+
+#p-elected-on-catalogue
+{
+color:#FF0000;
+background-color:#FFFFFF;
+padding: 0 6px;
+margin: 0;
+font-size:18px;
+position:absolute;
+right: 25px;
+z-index: 100;
+top: -10px;
+}

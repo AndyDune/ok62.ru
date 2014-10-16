@@ -1,0 +1,175 @@
+.form-field-none
+{
+background-color:#FFFFCE;
+padding: 2px;
+}
+.form-field-require
+{
+background-color:#FF5311;
+padding: 2px;
+}
+.form-field-spec
+{
+font-weight:bold;
+}
+
+#link-to-panel
+{
+text-align:right;
+}
+#steps-panel
+{
+width: 100%;
+overflow:auto;
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+#steps-panel li
+{
+display:block;
+float:left;
+padding: 5px;
+margin: 0;
+}
+
+
+.submit-tipa-big
+{
+text-align:center;
+}
+.submit-tipa-big input
+{
+padding: 10px;
+font-size:18px;
+}
+
+#steps-panel li.bg
+{
+background: url(_img/small-arrow.png) no-repeat 5px center;
+padding-left: 20px;
+}
+
+#object-sell div.form-part
+{
+border: 1px solid #999999;
+padding: 3px;
+margin: 15px 0 5px 0;
+}
+
+#object-sell .input-1
+{
+width: 50px;
+}
+#object-sell .input-0
+{
+width: 30px;
+}
+.width100
+{
+width: 100%;
+}
+
+
+#object-sell table tr td
+{
+	padding: 8px 0 0 0;
+	vertical-align:top;
+}
+#object-sell table tr td.object-prompting
+{
+width: 170px;
+}
+.pictures-float-list
+{
+width: 100%;
+overflow:auto;
+}
+
+.pictures-float-list div
+{
+width: 110px;
+height: 130px;
+float:left;
+text-align:center;
+margin: 5px 10px;;
+}
+
+#dl-want-to-sell
+{
+list-style-type: none;
+}
+#dl-want-to-sell dd
+{
+margin: 0;
+padding: 30px 0 0 0;
+}
+
+#dl-want-to-sell dt
+{
+font-size:24px;
+border-bottom: #333333 solid 1px;
+}
+
+
+#dl-want-to-sell dd ul
+{
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+#dl-want-to-sell dd ul li
+{
+display:block;
+text-align:center;
+}
+
+#dl-want-to-sell dd ul li input
+{
+margin: 5px auto;
+width: 400px;
+font-size:22px;
+padding: 5px;
+background: #fff url(_img/form_bg.png) repeat-x left bottom;
+}
+#dl-want-to-sell dd ul li input:hover
+{
+background: #fff;
+}
+
+
+#div-sell-no-auth-have-edit dl dd ul
+{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
+#div-sell-no-auth-have-edit dl dd ul li
+{
+	text-align:center;
+	padding: 5px;
+}
+
+#div-sell-no-auth-have-edit dl dt
+{
+font-size:24px;
+border-bottom: 1px solid #333333;
+}
+
+#div-sell-no-auth-have-edit dl dd ul li a
+{
+margin: 0 auto;
+display:block;
+background-color:#FFFFFF;
+border: 1px solid #333333;
+padding: 5px;
+font-size:22px;
+width: 550px;
+text-decoration:none;
+background: #fff url(_img/form_bg.png) repeat-x left bottom;
+}
+#div-sell-no-auth-have-edit dl dd ul li a:hover
+{
+background: #fff;
+
+}

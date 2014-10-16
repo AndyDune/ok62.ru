@@ -1,0 +1,60 @@
+<?php
+
+class Module_Catalogue_UrlFromCode extends Dune_Include_Abstract_Code
+{
+
+    protected function code()
+    {
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+
+    $object_code = str_replace(array(' ', '.', ',', '-'), '', $this->object_code);
+    $this->setResult('success', false);
+    $this->setResult('url', '/');
+    $id = 0;
+    if (strlen($object_code) < 6)
+    {
+        $id = (int)ltrim($object_code, ' 0');
+    }
+    else if (strlen($object_code) == 9)
+    {
+        $id = (int)ltrim(substr($object_code, 4),' 0');
+    }     
+    if ($id)
+    {
+        $object = new Special_Vtor_Object_Data($id);
+        if ($object->check())
+        {
+            $this->setResult('success', true);
+            $cat_url = new Special_Vtor_Catalogue_Url_Collector();
+            $cat_url->setRegion($object->region_id);
+            $cat_url->setArea($object->area_id);
+            $cat_url->setSettlement($object->settlement_id);
+            $cat_url->setStreet($object->street_id);
+            $cat_url->setHouse($object->house_number);
+            $cat_url->setBuilding($object->building_number);
+            
+            if (Special_Vtor_Settings::$districtPlus)
+                $cat_url->setDistrict($object->district_id_plus, true);
+            else 
+                $cat_url->setDistrict($object->district_id);
+            
+            $cat_url->setGroup($object->group);
+            $cat_url->setType($object->type);
+            $cat_url->setObject($id);
+            $this->setResult('url', $cat_url->get());
+        }
+    }
+    
+    
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
+    }
+    
+}
+    
+    

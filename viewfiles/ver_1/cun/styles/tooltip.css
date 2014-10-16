@@ -1,0 +1,46 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	width:250px;
+	border: 0px solid #269;
+	padding: 0;
+	opacity: 0.95;
+	color:#fff;
+}
+#tooltip1 h3 {
+  padding-left:5px;
+  font-size:12px;
+}
+#tooltip1 div {
+  padding-left:5px;
+  padding-right:5px;
+  margin:0;
+  color: #fff;
+}
+
+
+#tooltip.pretty {
+	font-family: Arial;
+	border: none;
+	width: 210px;
+	padding:20px;
+	height: 135px;
+	opacity: 0.95;
+	background: url('shadow00.png');
+}
+#tooltip.pretty h3 {
+	margin:  0 0 0.75em 0;
+	padding: 0;
+	width: 220px;
+	text-align: center;
+}
+#tooltip.pretty div { width: 220px; text-align: left;}
+
+#tooltip.fancy {
+	background: url('_img/tt/shadow20.png');
+	padding-top: 5em;
+	height: 100px;
+}
+#tooltip.fancy.viewport-right {
+	background: url('_img/tt/shadow2-.png');
+}
